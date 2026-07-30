@@ -1,3 +1,4 @@
+print("Program started")
 import json
 import requests
 
