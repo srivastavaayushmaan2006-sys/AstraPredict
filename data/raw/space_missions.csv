@@ -1,3 +1,0 @@
-import kagglehub
-path = kagglehub.dataset_download("sameerk2004/space-missions-dataset")
-print("Path to dataset files:", path)
