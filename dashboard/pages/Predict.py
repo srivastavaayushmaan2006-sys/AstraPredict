@@ -182,3 +182,65 @@ if predict:
 
     except Exception as error:
         st.error(str(error))
+        # --------------------------------------------------
+# Prediction History
+# --------------------------------------------------
+
+st.divider()
+
+st.subheader("📜 Prediction History")
+
+if st.session_state.history:
+
+    history_col, action_col = st.columns([5, 1])
+
+    with action_col:
+        if st.button("🗑️ Clear History"):
+            st.session_state.history = []
+            st.rerun()
+
+    st.dataframe(
+        st.session_state.history,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+else:
+
+    st.info(
+        "No predictions have been made yet."
+    )
+
+# --------------------------------------------------
+# Download History
+# --------------------------------------------------
+
+if st.session_state.history:
+
+    import pandas as pd
+
+    history_df = pd.DataFrame(
+        st.session_state.history
+    )
+
+    csv = history_df.to_csv(
+        index=False
+    ).encode("utf-8")
+
+    st.download_button(
+        label="📥 Download Prediction History",
+        data=csv,
+        file_name="prediction_history.csv",
+        mime="text/csv",
+        use_container_width=True,
+    )
+
+# --------------------------------------------------
+# Footer
+# --------------------------------------------------
+
+st.divider()
+
+st.caption(
+    "🚀 AstraPredict • AI-Powered Aerospace Intelligence Platform"
+)

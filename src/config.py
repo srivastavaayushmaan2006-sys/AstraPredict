@@ -12,5 +12,9 @@ MODEL_DIR = PROJECT_ROOT / "models"
 
 # API endpoints
 API_ENDPOINTS = {
-    "launch_library": "https://ll.thespacedevs.com/2.2.0/launch/?limit=100"
+    # Historical launches (used for dataset ingestion)
+    "launch_library": "https://ll.thespacedevs.com/2.2.0/launch/",
+
+    # Live upcoming launches (used by Mission Control)
+    "upcoming_launches": "https://ll.thespacedevs.com/2.2.0/launch/upcoming/",
 }
