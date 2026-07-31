@@ -5,7 +5,6 @@ from src.config import RAW_DATA_DIR
 
 
 def save_raw_launch_data():
-
     print("Downloading launch data...")
 
     data = get_launch_library_data()
