@@ -1,5 +1,23 @@
-import requests
+"""
+AstraPredict Dashboard
+Landing page for the AstraPredict platform.
+"""
+
 import streamlit as st
+
+from components.feature_card import show_feature_card
+from components.footer import show_footer
+from components.hero import show_hero
+from components.metrics import show_metrics
+from components.provider_card import show_provider_leaderboard
+from utils import (
+    get_dataset_stats,
+    load_dataset,
+)
+
+# ---------------------------------------
+# Page Config
+# ---------------------------------------
 
 st.set_page_config(
     page_title="AstraPredict",
@@ -7,97 +25,113 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("🚀 AstraPredict")
+# ---------------------------------------
+# Load CSS
+# ---------------------------------------
 
-st.markdown(
+with open("dashboard/assets/style.css") as f:
+    st.markdown(
+        f"<style>{f.read()}</style>",
+        unsafe_allow_html=True,
+    )
+
+# ---------------------------------------
+# Load Dataset
+# ---------------------------------------
+
+df = load_dataset()
+stats = get_dataset_stats(df)
+
+# ---------------------------------------
+# Hero Section
+# ---------------------------------------
+
+show_hero()
+
+st.divider()
+
+# ---------------------------------------
+# Dashboard Metrics
+# ---------------------------------------
+
+show_metrics(stats)
+
+st.divider()
+
+# ---------------------------------------
+# Feature Overview
+# ---------------------------------------
+
+left, right = st.columns(2)
+
+with left:
+    show_feature_card(
+        title="Prediction",
+        icon="🔮",
+        description="Predict the probability of a successful launch using our trained machine learning model.",
+        features=[
+            "Success probability",
+            "Confidence score",
+            "FastAPI backend",
+            "Historical launch data",
+        ],
+    )
+
+with right:
+    show_feature_card(
+        title="Analytics",
+        icon="📊",
+        description="Explore historical launch data with interactive visualizations.",
+        features=[
+            "Provider statistics",
+            "Rocket trends",
+            "Mission types",
+            "Historical launches",
+        ],
+    )
+
+st.divider()
+
+# ---------------------------------------
+# Top Launch Providers
+# ---------------------------------------
+
+show_provider_leaderboard(df)
+
+st.divider()
+
+# ---------------------------------------
+# Technology Stack
+# ---------------------------------------
+
+st.subheader("⚙️ Technology Stack")
+
+tech1, tech2, tech3, tech4 = st.columns(4)
+
+tech1.info("🐍 Python")
+tech2.info("⚡ FastAPI")
+tech3.info("🎈 Streamlit")
+tech4.info("🤖 Scikit-Learn")
+
+st.divider()
+
+# ---------------------------------------
+# Getting Started
+# ---------------------------------------
+
+st.success(
     """
-Predict the probability of a successful space launch
-using our machine learning model.
+👈 Use the sidebar to navigate through the application.
+
+Start with **Predict** to estimate launch success or explore the
+**Analytics** page to discover trends in historical launch data.
 """
 )
 
 st.divider()
 
-provider = st.text_input("Launch Provider", "SpaceX")
+# ---------------------------------------
+# Footer
+# ---------------------------------------
 
-rocket = st.text_input("Rocket", "Falcon 9")
-
-mission = st.text_input("Mission Type", "Communications")
-
-pad = st.text_input("Launch Pad", "Launch Complex 39A")
-
-col1, col2, col3, col4 = st.columns(4)
-
-with col1:
-    year = st.number_input(
-        "Year",
-        value=2026,
-        step=1,
-    )
-
-with col2:
-    month = st.number_input(
-        "Month",
-        value=9,
-        min_value=1,
-        max_value=12,
-    )
-
-with col3:
-    day = st.number_input(
-        "Day",
-        value=18,
-        min_value=1,
-        max_value=31,
-    )
-
-with col4:
-    hour = st.number_input(
-        "Hour",
-        value=14,
-        min_value=0,
-        max_value=23,
-    )
-
-st.divider()
-
-if st.button("Predict Launch Success", use_container_width=True):
-
-    payload = {
-        "provider": provider,
-        "rocket": rocket,
-        "mission_type": mission,
-        "pad": pad,
-        "year": int(year),
-        "month": int(month),
-        "day": int(day),
-        "hour": int(hour),
-    }
-
-    try:
-
-        response = requests.post(
-            "http://127.0.0.1:8000/predict",
-            json=payload,
-            timeout=10,
-        )
-
-        response.raise_for_status()
-
-        result = response.json()
-
-        probability = result["success_probability"] * 100
-
-        if result["prediction"] == 1:
-            st.success(
-                f"✅ Predicted Successful Launch\n\n"
-                f"Confidence: {probability:.1f}%"
-            )
-        else:
-            st.error(
-                f"❌ Predicted Unsuccessful Launch\n\n"
-                f"Confidence: {probability:.1f}%"
-            )
-
-    except Exception as e:
-        st.error(f"API Error:\n\n{e}")
+show_footer()
