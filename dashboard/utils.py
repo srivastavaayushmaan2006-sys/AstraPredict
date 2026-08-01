@@ -12,7 +12,7 @@ DATA_PATH = (
     / "launches_features.csv"
 )
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://astrapredict-1.onrender.com"
 
 
 def load_dataset():
