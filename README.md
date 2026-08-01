@@ -1,119 +1,93 @@
 # 🚀 AstraPredict
 
-> **AI-powered rocket launch prediction platform built with Machine Learning, FastAPI, and Streamlit.**
+<p align="center">
 
-AstraPredict combines historical rocket launch data with a machine learning model to estimate the probability of launch success while providing live launch tracking and interactive analytics through a modern dashboard.
+<img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit">
+<img src="https://img.shields.io/badge/FastAPI-Backend-green?style=for-the-badge&logo=fastapi">
+<img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge">
+
+</p>
+
+> **An end-to-end Machine Learning platform for analyzing historical rocket launches and predicting launch success.**
+
+AstraPredict combines historical launch records, machine learning, FastAPI, and Streamlit into an interactive analytics platform for exploring space missions and estimating launch success probabilities.
 
 ---
 
-## 🌟 Features
+# 📸 Dashboard
 
-- 🚀 Live rocket launch tracking
-- 🤖 AI-powered launch success prediction
+> *(Add screenshots after deployment)*
+
+| Home | Analytics |
+|------|-----------|
+| Screenshot | Screenshot |
+
+| Mission Control | Model Lab |
+|----------------|-----------|
+| Screenshot | Screenshot |
+
+---
+
+# ✨ Features
+
+- 🚀 Explore **4,196 historical rocket launches**
+- 🤖 Predict launch success using Machine Learning
 - 📊 Interactive analytics dashboard
-- 🌍 Launch site map visualization
-- ⏳ Real-time launch countdown
-- 🛰 Historical launch explorer
-- 📈 Provider and rocket performance insights
-- 🧪 Machine Learning Model Lab
+- 🌍 Launch Explorer with advanced filters
+- 🛰 Mission Control
+- ⚔️ Provider Comparison
+- 🧪 Model Lab
+- 📈 Historical Intelligence
 - ⚡ FastAPI REST API
 - 📉 Model evaluation metrics
+- 📥 Download filtered launch data
 
 ---
 
-# 📸 Screenshots
+# 📊 Dataset
 
-> *(Replace these with your own screenshots once you've taken them.)*
+AstraPredict uses a cleaned historical launch dataset containing:
 
-## Mission Control
-
-![Mission Control](assets/mission_control.png)
-
----
-
-## Launch Explorer
-
-![Launch Explorer](assets/launch_explorer.png)
+- **4,196 launches**
+- **55 launch providers**
+- **341 rocket variants**
+- **8 mission categories**
+- Historical launch records dating back to the beginning of the Space Age
 
 ---
 
-## Analytics Dashboard
-
-![Analytics](assets/analytics.png)
-
----
-
-## Model Lab
-
-![Model Lab](assets/model_lab.png)
-
----
-
-# 🏗 System Architecture
+# 🏗 Architecture
 
 ```
-                     Launch Library 2 API
-                              │
-                              ▼
-                      FastAPI Backend
-                ┌────────────────────────┐
-                │   /next-launch         │
-                │   /predict             │
-                │   /health              │
-                └────────────────────────┘
-                              │
-                              ▼
-                   Logistic Regression Model
-                              │
-                              ▼
-                  Streamlit Dashboard
-        ┌────────────────────────────────────┐
-        │ Mission Control                    │
-        │ Launch Explorer                    │
-        │ Analytics                          │
-        │ Model Lab                          │
-        └────────────────────────────────────┘
-```
-
----
-
-# 🤖 Machine Learning Pipeline
-
-```
-Historical Launch Data
-        │
-        ▼
-Data Cleaning
-        │
-        ▼
+Historical Launch Dataset
+          │
+          ▼
+Data Preprocessing
+          │
+          ▼
 Feature Engineering
-        │
-        ▼
-Categorical Encoding
-        │
-        ▼
-Train/Test Split
-        │
-        ▼
-Logistic Regression
-        │
-        ▼
-Probability Prediction
-        │
-        ▼
-FastAPI Prediction Endpoint
-        │
-        ▼
+          │
+          ▼
+Machine Learning Model
+(Logistic Regression)
+          │
+          ▼
+FastAPI Backend
+          │
+          ▼
 Streamlit Dashboard
 ```
 
 ---
 
-# 📊 Model Performance
+# 🤖 Machine Learning
 
-The current production model uses **Logistic Regression**.
+Current Production Model
 
-Metrics generated during training include:
+- Logistic Regression
+
+Evaluation Metrics
 
 - Accuracy
 - Precision
@@ -121,16 +95,31 @@ Metrics generated during training include:
 - F1 Score
 - ROC-AUC
 - Confusion Matrix
-- ROC Curve
 - Classification Report
-
-These are automatically generated inside the `models/` directory.
+- ROC Curve
 
 ---
 
+# 📁 Project Structure
 
+```text
+AstraPredict/
+│
+├── api/
+├── dashboard/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── models/
+├── src/
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
 
-# ⚙ Installation
+---
+
+# ⚙️ Installation
 
 Clone the repository
 
@@ -148,21 +137,21 @@ pip install -r requirements.txt
 
 ---
 
-# 🚀 Train the Machine Learning Model
+# 🚀 Train the Model
 
 ```bash
-python src/train_model.py
+python -m src.train_model
 ```
 
 ---
 
-# 🌐 Run the FastAPI Backend
+# 🌐 Start the FastAPI Server
 
 ```bash
 uvicorn api.app:app --reload
 ```
 
-API Documentation
+Swagger Documentation
 
 ```
 http://127.0.0.1:8000/docs
@@ -170,7 +159,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 📊 Run the Streamlit Dashboard
+# 📊 Run the Dashboard
 
 ```bash
 streamlit run dashboard/app.py
@@ -178,48 +167,14 @@ streamlit run dashboard/app.py
 
 ---
 
-# 🔌 API Endpoints
-
-## Get Next Launch
-
-```
-GET /next-launch
-```
-
-Returns information about the next scheduled rocket launch.
-
----
-
-## Predict Launch Success
-
-```
-POST /predict
-```
-
-Returns
-
-- Success probability
-- Predicted outcome
-
----
-
-## Health Check
-
-```
-GET /health
-```
-
-Returns API status.
-
----
-
 # 🛠 Tech Stack
 
 ### Machine Learning
 
-- Scikit-Learn
+- Scikit-learn
 - Pandas
 - NumPy
+- Joblib
 
 ### Backend
 
@@ -231,9 +186,10 @@ Returns API status.
 - Streamlit
 - Plotly
 
-### Data
+### Data Engineering
 
-- Launch Library 2 API
+- Pandas
+- Custom preprocessing pipeline
 
 ### Development
 
@@ -241,17 +197,6 @@ Returns API status.
 - Git
 - GitHub
 
----
-
-# 📈 Future Improvements
-
-- Random Forest Model
-- Gradient Boosting
-- XGBoost
-- SHAP Explainability
-- Docker Deployment
-- Cloud Deployment
-- CI/CD Pipeline
 
 ---
 
@@ -265,14 +210,10 @@ https://github.com/srivastavaayushmaan2006-sys
 
 ---
 
-# ⭐ Support
+# 📄 License
 
-If you found this project interesting, consider giving it a ⭐ on GitHub.
-
-It helps others discover the project and supports future development.
+This project is licensed under the MIT License.
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
+⭐ If you found AstraPredict interesting, consider starring the repository.

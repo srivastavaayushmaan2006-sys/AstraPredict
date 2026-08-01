@@ -1,21 +1,841 @@
 provider,rocket,mission_type,pad,year,month,day,hour,Actual,Predicted,Probability
-United States Air Force,Thor Agena A,Government/Top Secret,Space Launch Complex 1W,1960,8,18,19,1,0,0.26794962787143245
-US Navy,Project Pilot,Government/Top Secret,Naval Air Weapons Station China Lake,1958,8,22,0,0,0,0.116092909784886
-United States Air Force,Thor Agena A,Government/Top Secret,Space Launch Complex 1E,1959,8,19,19,1,1,0.5353232770754074
-Army Ballistic Missile Agency,Juno-I,Test Target,Launch Complex 5,1958,10,23,3,0,0,0.22622685845828194
-Soviet Space Program,Vostok 8K72,Test Flight,1/5,1960,8,19,8,1,0,0.3656002019347739
-United States Air Force,Thor DM-21 Ablestar,Navigation,Space Launch Complex 17B,1960,4,13,12,1,1,0.7774286668554434
-Army Ballistic Missile Agency,Thor Able I,Lunar Exploration,Space Launch Complex 17A,1958,10,11,8,1,0,0.2859326245648945
-Soviet Space Program,Vostok-L 8K72,Lunar Exploration,1/5,1959,10,4,0,1,1,0.8192444496132143
-Army Ballistic Missile Agency,Juno-I,Earth Science,Launch Complex 5,1958,7,26,15,1,0,0.1585030458021811
-National Aeronautics and Space Administration,Juno II,Test Target,Launch Complex 26B,1959,8,15,0,0,1,0.6548800381055494
-Soviet Space Program,Sputnik 8K74PS,Test Flight,1/5,1957,11,3,2,1,1,0.9002575655427819
-National Aeronautics and Space Administration,Little Joe,Test Flight,Launch Area 1,1960,11,8,15,0,1,0.7980898414855415
-National Aeronautics and Space Administration,Scout X-1,Astrophysics,Launch Area 3,1960,12,4,21,0,1,0.866087966739535
-United States Air Force,Thor Agena A,Government/Top Secret,Space Launch Complex 1W,1959,4,13,21,1,0,0.375559763230103
-US Navy,Project Pilot,Government/Top Secret,Naval Air Weapons Station China Lake,1958,8,28,0,0,0,0.0522320722088811
-United States Air Force,Thor Delta,Communications,Space Launch Complex 17A,1960,5,13,9,0,1,0.8697257378835099
-United States Air Force,Thor DM-21 Ablestar,Communications,Space Launch Complex 17B,1960,8,18,19,0,1,0.6974741892298945
-Soviet Space Program,Vostok-L 8K72,Lunar Exploration,1/5,1958,12,4,18,0,1,0.5722778307290971
-US Navy,Project Pilot,Government/Top Secret,Naval Air Weapons Station China Lake,1958,7,25,0,0,0,0.07687673858403009
-US Navy,Vanguard,Earth Science,Launch Complex 18A,1959,4,14,2,0,1,0.7461306361851415
+Boeing,Delta II 7920-10,Unknown,"SLC-17A, Cape Canaveral AFS, Florida, USA",1995,12,30,13,1,1,0.9366678931901251
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1971,3,3,9,1,1,0.9505686589411323
+MITT,Start-1,Unknown,"Svobodny Cosmodrome, Russia",1997,12,24,13,1,1,0.9198719915640466
+Arianespace,Ariane 2,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1987,11,21,2,1,1,0.9788951938878765
+ILS,Atlas IIAS,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",2004,4,19,22,1,1,0.9726258408036514
+RVSN USSR,Vostok-2M,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1981,10,13,23,1,1,0.9434375169163487
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1976,5,5,7,1,1,0.9514243696438708
+General Dynamics,Atlas-E/F Star-37S-ISS,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1983,11,18,6,1,1,0.8766882353722253
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1977,2,9,11,1,1,0.9556104983152641
+VKS RF,Soyuz 2.1b/Fregat-M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",2017,8,22,0,1,1,0.9109880112888915
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1976,6,29,8,1,1,0.958321527256263
+CASC,Long March 3B/E,Unknown,"LC-3, Xichang Satellite Launch Center, China",2019,6,24,18,1,1,0.9196246777855434
+General Dynamics,Atlas-LV3 Agena-B,Unknown,"SLC-3E, Vandenberg AFB, California, USA",1962,4,9,15,1,1,0.6740845548702323
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1988,5,28,2,1,1,0.9660772277580002
+Arianespace,Vega,Unknown,"ELV-1 (SLV), Guiana Space Centre, French Guiana, France",2017,8,2,1,1,1,0.9501663160341939
+Boeing,"Delta IV Medium+ (4,2)",Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",2006,5,24,22,1,1,0.9710716271505213
+KCST,Unha-3,Unknown,"Pad 1, Sohae Satellite Launching Station, North Korea",2012,12,12,0,1,1,0.6302931807165065
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1973,10,10,10,1,1,0.9387309895057291
+Boeing,Delta II 7920-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",1997,9,27,1,1,1,0.9861427311827906
+General Dynamics,Atlas-E/F Star-37S-ISS,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1994,12,30,10,1,1,0.8646374972449989
+ISRO,PSLV-XL,Unknown,"Second Launch Pad, Satish Dhawan Space Centre, India",2016,3,10,10,1,1,0.8647754706172847
+Arianespace,Soyuz ST-B/Fregat-MT,Unknown,"ELS, Guiana Space Centre, French Guiana, France",2014,12,18,18,1,1,0.9669422952220635
+Roscosmos,Soyuz 2.1a,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",2016,3,31,16,1,1,0.9447350254704764
+RVSN USSR,Tsyklon-2A,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1967,12,27,11,1,1,0.8087354570448154
+NASA,Space Shuttle Columbia,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",2003,1,16,15,0,1,0.9789301295822193
+Northrop,Pegasus XL,Unknown,"Stargazer, Ronald Reagan Ballistic Missile Defense Test Site, Marshall Islands, USA",2012,6,13,16,1,1,0.9322746521187182
+Lockheed,Atlas IIAS,Military,"SLC-3E, Vandenberg AFB, California, USA",2001,9,9,15,1,1,0.9448350768267232
+General Dynamics,Atlas-G Centaur-D1AR,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1986,12,5,2,1,1,0.8508234062009995
+RVSN USSR,Voskhod,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1971,2,18,13,1,1,0.9433661602608596
+General Dynamics,Atlas-D OV1,Unknown,"LC-576B3, Vandenberg AFB, California, USA",1965,1,21,20,0,0,0.4683911096725921
+RVSN USSR,Vostok-2,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1964,10,28,10,1,1,0.8726449799197553
+General Dynamics,Atlas-E/F SGS-1,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1977,6,23,9,1,1,0.7972499181142699
+VKS RF,Rokot/Briz KM,Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",2010,9,8,3,1,1,0.9344409621052316
+General Dynamics,Atlas-LV3 Agena-B,Unknown,"LC-12, Cape Canaveral AFS, Florida, USA",1962,10,18,16,1,1,0.5501283039333841
+SpaceX,Falcon 9 Block 5,Communications,"LC-39A, Kennedy Space Center, Florida, USA",2020,8,7,5,1,1,0.9935199542473595
+RVSN USSR,Vostok-2M,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1985,10,3,5,1,1,0.9663104971129193
+US Air Force,Thor-DM18 Agena-A,Unknown,"SLC-1E (75-3-5), Vandenberg AFB, California, USA",1960,9,13,22,1,1,0.5746042095122039
+SpaceX,Falcon 9 v1.1,Cargo,"SLC-40, Cape Canaveral AFS, Florida, USA",2015,4,15,20,1,1,0.9118174402397955
+Arianespace,Soyuz ST-B/Fregat-M,Communications,"ELS, Guiana Space Centre, French Guiana, France",2019,2,27,21,1,1,0.9833791457850749
+ULA,Delta II 7320-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2015,1,31,14,1,1,0.9870019753963547
+SpaceX,Falcon 1,Unknown,"Omelek Island, Ronald Reagan Ballistic Missile Defense Test Site, Marshall Islands, USA",2009,7,14,3,1,1,0.5581678604357188
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2014,9,11,22,1,1,0.9717293756257863
+Lockheed,Atlas-E/F Altair,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1990,4,11,15,1,1,0.9087244650593358
+ULA,Atlas V 401,Cargo,"SLC-41, Cape Canaveral AFS, Florida, USA",2016,3,23,3,1,1,0.9790122427909254
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1965,10,4,7,1,1,0.8598346987650113
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1968,6,18,16,1,1,0.9363704599058077
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1965,11,4,5,1,1,0.9594334451765035
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1969,12,23,13,1,1,0.9301052025491147
+RVSN USSR,Voskhod,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1975,4,24,8,1,1,0.9481256215596914
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1970,12,16,4,1,1,0.9567134497606445
+VKS RF,Soyuz 2.1v/Volga,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",2019,7,10,17,1,1,0.8431798266241526
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1983,10,29,8,1,1,0.9834221857021982
+Kosmotras,Dnepr,Unknown,"Site 370/13, Yasny Cosmodrome, Russia",2013,11,21,7,1,1,0.9502175101869295
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1991,2,26,4,1,1,0.9533810408997229
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1976,7,22,15,1,1,0.9448587726925727
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/2, Plesetsk Cosmodrome, Russia",1989,9,28,0,1,1,0.9523736909750452
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1982,2,11,1,1,1,0.9688617732848457
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1979,1,16,17,1,1,0.9312563947423554
+NASA,Titan II GLV,Unknown,"LC-19, Cape Canaveral AFS, Florida, USA",1965,3,23,14,1,1,0.8421050690801347
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1980,1,25,20,1,1,0.9500344320200161
+General Dynamics,Atlas-SLV3D Centaur-D1AR,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1981,8,6,8,0,1,0.9069375034185644
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1977,8,24,18,1,1,0.9176940280931691
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 107/1, Kapustin Yar, Russia",1982,7,29,19,1,1,0.8661363602080908
+Arianespace,Ariane 3,Unknown,"ELA-1, Guiana Space Centre, French Guiana, France",1984,8,4,13,1,1,0.9010191818780169
+US Air Force,Titan III(24)B,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1974,6,6,16,1,1,0.9325453763168735
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Site 86/1, Kapustin Yar, Russia",1965,7,2,6,1,1,0.8740172439843409
+NASA,Space Shuttle Endeavour,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",2002,11,24,0,1,1,0.9820854173257487
+Martin Marietta,Titan IIIC,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",1969,5,23,7,1,1,0.7459394662985704
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1991,11,12,20,1,1,0.9120057345581174
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1973,8,30,0,1,1,0.9392954921851772
+ISAS,Mu-III S2,Unknown,"Mu Pad, Uchinoura Space Center, Japan",1995,1,15,13,0,1,0.9240971573310794
+ULA,Delta II 7925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",2008,3,15,6,1,1,0.9871841264206542
+NASA,Space Shuttle Challenger,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1985,5,6,16,1,1,0.9276582003137451
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/2, Plesetsk Cosmodrome, Russia",1990,12,22,7,1,1,0.9398314450341861
+ULA,"Delta IV Medium+ (4,2)",Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",2009,6,27,22,1,1,0.9802215597455699
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1976,10,21,16,1,1,0.9448467959125053
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1986,3,21,10,1,1,0.9852436796095967
+General Dynamics,Atlas-LV3 Agena-D,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1964,4,23,16,1,1,0.9281120178316341
+RVSN USSR,Voskhod,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1970,10,9,11,1,1,0.8815391033245983
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1980,4,29,11,1,1,0.9842229886257641
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-2E (75-1-1), Vandenberg AFB, California, USA",1962,9,29,6,1,1,0.8243898688002793
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1970,9,29,8,1,1,0.9143550072034
+RVSN USSR,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1992,2,5,18,0,1,0.8565459177436604
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1982,11,24,11,0,1,0.9268718418190494
+ULA,Delta II 7420-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2010,11,6,2,1,1,0.9894567379686593
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1975,12,17,11,1,1,0.9387312357328569
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1988,6,21,16,1,1,0.9312650185696095
+Northrop,Pegasus XL,Unknown,"Stargazer, Vandenberg AFB, California, USA",2013,6,28,2,1,1,0.9462658467883284
+CASC,Long March 4B,Unknown,"LC-7, Taiyuan Satellite Launch Center, China",2003,10,21,3,1,1,0.9766593785842925
+CASC,Long March 4B,Unknown,"LC-9, Taiyuan Satellite Launch Center, China",2018,7,31,3,1,1,0.9430826548502588
+RVSN USSR,Vostok-2M,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1980,9,9,11,1,1,0.9589999828995308
+CASC,Long March 4A,Unknown,"Taiyuan Satellite Launch Center, China",1988,9,6,20,1,1,0.9059835499426889
+CASC,Long March 4B,Unknown,"LC-7, Taiyuan Satellite Launch Center, China",2006,10,23,23,1,1,0.9613576456524183
+Arianespace,Ariane 2,Unknown,"ELA-1, Guiana Space Centre, French Guiana, France",1989,1,27,1,1,1,0.9556015088240678
+RVSN USSR,Tsyklon,Unknown,"Site 161/35, Baikonur Cosmodrome, Kazakhstan",1967,3,22,14,0,1,0.9367649273174908
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1971,5,27,11,1,1,0.9329868024493991
+ISRO,SLV-3,Unknown,"SLV LP, Satish Dhawan Space Centre, India",1979,8,10,2,0,1,0.8026068137351651
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1E (75-3-5), Vandenberg AFB, California, USA",1962,2,21,18,0,1,0.8044886509346061
+ULA,Atlas V 401,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",2009,9,8,21,1,1,0.9573272331222196
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1976,1,20,17,1,1,0.9306512661231403
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1971,2,9,18,1,1,0.9269626135042521
+MITT,Start,Unknown,"Site 158, Plesetsk Cosmodrome, Russia",1995,3,28,10,0,1,0.900818996330157
+RAE,Black Arrow,Unknown,"LA-5B, RAAF Woomera Range Complex, Australia",1971,10,28,4,1,1,0.51643610870945
+MITT,Start-1,Unknown,"Site 158, Plesetsk Cosmodrome, Russia",1993,3,25,13,1,1,0.915260567207532
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1E (75-3-5), Vandenberg AFB, California, USA",1962,5,15,19,1,1,0.7896802795877099
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1977,5,5,14,1,1,0.9490255047243193
+VKS RF,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",2000,9,25,10,1,1,0.8764770768251817
+Martin Marietta,Titan II(23)G,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1994,1,25,16,1,1,0.887016226176611
+ILS,Atlas IIAS,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1999,9,23,6,1,1,0.9716444767727973
+RVSN USSR,Vostok-2M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1976,8,27,14,1,1,0.9505881840510146
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1972,2,3,8,1,1,0.9529354085570597
+RVSN USSR,Vostok-2M,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1982,5,5,8,1,1,0.9740963164946264
+Northrop,Pegasus XL/HAPS,Unknown,"Stargazer, Vandenberg AFB, California, USA",1999,5,18,5,1,1,0.9372538501132158
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1975,9,25,9,1,1,0.9502395627444081
+ULA,"Delta IV Medium+ (4,2)",Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",2010,3,4,23,1,1,0.9812816439902655
+ULA,Atlas V 401,Navigation,"SLC-41, Cape Canaveral AFS, Florida, USA",2014,10,29,17,1,1,0.9812480674348969
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1975,7,4,0,1,1,0.9484914653794962
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2017,2,14,21,1,1,0.9765429929875918
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",2002,7,8,6,1,1,0.9493867621267094
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1971,3,5,8,0,1,0.963767899769207
+Northrop,Pegasus XL,Unknown,"Stargazer, Vandenberg AFB, California, USA",2005,4,15,17,1,1,0.9245772569188493
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1981,9,14,20,1,1,0.9412701178278144
+Arianespace,Ariane 1,Unknown,"ELV-1 (SLV), Guiana Space Centre, French Guiana, France",1986,2,22,1,1,1,0.9551305834608671
+Lockheed,Titan IV(402)B,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2000,5,8,16,1,1,0.8811600271981155
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1987,12,1,14,1,1,0.921425776454639
+NASA,Space Shuttle Columbia,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1981,4,12,12,1,1,0.9780577339263392
+RVSN USSR,Molniya-M /Block VL,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1969,1,10,5,1,1,0.8089448304929385
+CNES,Diamant BP4,Unknown,"ELD, Guiana Space Centre, French Guiana, France",1975,9,27,14,1,1,0.7939284763852764
+CECLES,Europa 1,Unknown,"LA-5B, RAAF Woomera Range Complex, Australia",1969,7,3,8,0,1,0.5859083313916802
+General Dynamics,Atlas-SLV3 Agena-D,Unknown,"LC-12, Cape Canaveral AFS, Florida, USA",1966,12,7,2,1,1,0.7819443255123768
+RVSN USSR,Molniya-M /Block NVL,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1970,8,17,5,1,1,0.8631733192405778
+Martin Marietta,Titan IIID,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1976,7,8,18,1,1,0.9471689556665734
+RVSN USSR,Vostok-2,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1963,3,21,8,1,1,0.8031164564010632
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1976,7,21,10,1,1,0.9336268718668843
+RVSN USSR,Vostok-2M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1978,12,19,1,1,1,0.961464557950984
+Lockheed,Titan IV(401)A,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",1996,4,24,23,1,1,0.8750375331227146
+ISRO,PSLV-G,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2016,9,26,3,1,1,0.8352602572372521
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1976,12,16,10,1,1,0.9263857304793368
+NASA,Space Shuttle Challenger,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1984,4,6,13,1,1,0.9340431982218316
+Martin Marietta,Titan IIID,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1982,11,17,21,1,1,0.9385731158244516
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1987,8,18,2,1,1,0.9462155303879213
+CASC,Long March 2C,Unknown,"LC-3, Xichang Satellite Launch Center, China",2004,4,18,15,1,1,0.9720349667753413
+RVSN USSR,Molniya,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1967,5,24,22,1,0,0.46430842505430125
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1980,3,14,10,1,1,0.9850799769453065
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1972,12,2,4,1,1,0.8659425210471455
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1982,3,24,0,1,1,0.9626025142438287
+RVSN USSR,Vostok-2M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1979,10,31,9,1,1,0.9547074731569155
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1983,12,8,6,1,1,0.9560214659340727
+Sea Launch,Zenit-3 SL,Unknown,"LP Odyssey, Kiritimati Launch Area, Pacific Ocean",2000,10,21,5,1,1,0.8928680455342467
+General Dynamics,Atlas-LV3 Agena-B,Unknown,"SLC-3E, Vandenberg AFB, California, USA",1961,10,21,13,0,1,0.6534261681060692
+SpaceX,Falcon 9 Block 5,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2018,7,22,5,1,1,0.9651430885773703
+Northrop,Pegasus,Unknown,"NB-52B Carrier, Edwards AFB, California, USA",1994,9,3,14,1,1,0.8327633472823083
+NASA,Space Shuttle Discovery,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1985,6,17,11,1,1,0.9796982220997865
+Martin Marietta,Titan III(23)C,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1976,3,14,1,1,1,0.8751168127940011
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1975,9,5,14,1,1,0.9441750004489571
+NASA,Space Shuttle Discovery,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",1990,4,24,12,1,1,0.9778371499282349
+US Air Force,Titan IIIB,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1966,12,14,18,1,1,0.9172433489111954
+NASA,Space Shuttle Challenger,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1983,6,18,11,1,1,0.9339517679796464
+RVSN USSR,Vostok-2M,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1967,2,28,14,1,1,0.9609030767074845
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1969,6,15,8,1,1,0.9458642147215607
+US Navy,Vanguard,Unknown,"LC-18A, Cape Canaveral AFS, Florida, USA",1958,2,5,7,0,0,0.25304648997778323
+Arianespace,Ariane 5 G,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2002,8,28,22,1,1,0.9119699298303148
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2010,11,26,18,1,1,0.972866985878675
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",2002,4,16,23,1,1,0.9659524603827254
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1970,10,8,15,1,1,0.9184572725894048
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1980,10,24,10,1,1,0.9425216980256877
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1971,7,28,10,1,1,0.9341692335135146
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",2001,6,8,15,1,1,0.9379106399072987
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1982,2,26,20,1,1,0.9395444933300799
+ISRO,PSLV-G,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2001,10,22,10,1,1,0.7992366128886201
+General Dynamics,Atlas-SLV3 Agena-D,Unknown,"LC-12, Cape Canaveral AFS, Florida, USA",1967,11,5,23,1,1,0.6793230572117332
+Land Launch,Zenit-3 SLB,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",2009,6,21,21,1,1,0.8024326152471564
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1970,10,30,2,1,1,0.985347427716106
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1E (75-3-5), Vandenberg AFB, California, USA",1962,9,1,20,1,1,0.7707770545892029
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1985,11,9,8,1,1,0.9451600802899818
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1990,6,13,1,1,1,0.959612013404339
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1985,12,24,18,1,1,0.9202558571219386
+CASC,Long March 3C/E,Unknown,"LC-2, Xichang Satellite Launch Center, China",2019,5,17,15,1,1,0.9175071916336133
+General Dynamics,Atlas-G Centaur-D1AR,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1984,6,9,23,0,1,0.7888733767248283
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1981,9,30,8,1,1,0.9349876015482774
+VKS RF,Rokot/Briz KM,Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",2016,6,4,14,1,1,0.9207548515476821
+Kosmotras,Dnepr,Unknown,"Site 370/13, Yasny Cosmodrome, Russia",2014,11,6,7,1,1,0.9506926200873725
+Arianespace,Ariane 2,Unknown,"ELA-1, Guiana Space Centre, French Guiana, France",1986,5,31,0,0,1,0.9523448245355999
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1974,5,17,11,1,1,0.9346328768775176
+Boeing,Delta II 7925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",2000,7,16,9,1,1,0.9769643519672024
+Martin Marietta,Titan 34D,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1984,12,4,18,1,1,0.8130340834096016
+NASA,Space Shuttle Discovery,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1992,12,2,13,1,1,0.9761563056605027
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1986,2,1,18,1,1,0.956161717388428
+NASA,Space Shuttle Discovery,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1998,6,2,22,1,1,0.9740849582942006
+Roscosmos,Soyuz FG,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",2017,7,28,15,1,1,0.8466943334180731
+US Navy,Vanguard,Unknown,"LC-18A, Cape Canaveral AFS, Florida, USA",1958,3,17,12,1,0,0.22393413546299457
+Boeing,Delta IV Heavy,Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",2004,12,21,21,0,1,0.966572082793836
+RVSN USSR,Voskhod,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1967,6,1,10,1,1,0.8929459333829383
+MHI,H-IIA 202,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2014,2,27,18,1,1,0.9685451342905972
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1991,10,29,23,1,1,0.9598839069699158
+CASC,Feng Bao 1,Unknown,"Site 138 (LA-2B), Jiuquan Satellite Launch Center, China",1973,9,18,12,0,1,0.7629748041888958
+Boeing,Delta II 7925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",1991,7,4,2,1,1,0.9804604097228735
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1985,2,1,19,1,1,0.9513491081836911
+CASC,Long March 4C,Unknown,"LC-9, Taiyuan Satellite Launch Center, China",2019,5,22,22,0,1,0.8250687099802299
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1961,3,30,20,0,1,0.7781759315914815
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1987,12,23,20,1,1,0.9137963995661529
+CASC,Long March 2C,Unknown,"LC-3, Xichang Satellite Launch Center, China",2004,11,18,10,1,1,0.971267901093175
+ULA,Delta II 7925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",2009,8,17,10,1,1,0.9841167149703274
+Martin Marietta,Commercial Titan III,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1992,9,25,17,1,1,0.7029336294177961
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1976,3,19,19,1,1,0.8856286292877283
+US Air Force,Thor-DM21 Ablestar,Unknown,"SLC-17B, Cape Canaveral AFS, Florida, USA",1961,2,22,3,1,1,0.7184568510300537
+CASC,Long March 5B,Crewed,"LC-101, Wenchang Satellite Launch Center, China",2020,5,5,10,1,1,0.9272538315382012
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1978,5,23,16,1,1,0.9265828020589337
+CASC,Long March 2D,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2017,10,9,4,1,1,0.9691519189205561
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2015,11,10,21,1,1,0.9712790669656832
+CASC,Long March 11,Unknown,"Site 95, Jiuquan Satellite Launch Center, China",2018,4,26,4,1,1,0.9514806579957585
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1970,3,18,14,1,1,0.9310045485338486
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1974,10,18,15,1,1,0.930608138098487
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1980,7,18,10,1,1,0.9469112906090845
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1995,12,6,23,1,1,0.9589489938831555
+Boeing,Delta II 7925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",1992,9,9,8,1,1,0.9761551587828209
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1975,7,8,5,1,1,0.9533041403098953
+RVSN USSR,Vostok-2M,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1988,4,20,5,1,1,0.9704501928869141
+CASC,Long March 3,Unknown,"LC-3, Xichang Satellite Launch Center, China",1988,12,22,12,1,1,0.8119098174571412
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",2010,4,27,1,1,1,0.958573302059865
+CASC,Long March 3B/E,Unknown,"LC-2, Xichang Satellite Launch Center, China",2019,11,4,17,1,1,0.8710237037637151
+Arianespace,Vega,Unknown,"ELV-1 (SLV), Guiana Space Centre, French Guiana, France",2016,9,16,1,1,1,0.9486117435372187
+General Dynamics,Atlas-SLV3D Centaur-D1AR,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1978,8,8,7,1,1,0.9084388678260277
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1974,7,25,7,1,1,0.9485437196965594
+RVSN USSR,Proton K/Block D,Unknown,"Site 81/24, Baikonur Cosmodrome, Kazakhstan",1971,5,19,16,1,1,0.5004096770910705
+NASA,Mercury-Redstone,Unknown,"LC-5, Cape Canaveral AFS, Florida, USA",1960,11,21,14,0,1,0.8798344572859673
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1982,9,24,9,1,1,0.9337115320418549
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1984,9,7,19,1,1,0.9472853174316687
+VKS RF,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1996,9,4,9,1,1,0.8793873207126627
+Sea Launch,Zenit-3 SL,Unknown,"LP Odyssey, Kiritimati Launch Area, Pacific Ocean",2000,7,28,22,1,1,0.8504050236973528
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",2005,10,27,6,1,1,0.9458841549368986
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1962,10,9,18,1,1,0.7615894985509091
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1E (75-3-5), Vandenberg AFB, California, USA",1962,4,18,0,1,1,0.8634494771975908
+US Air Force,Thor DM-21 Agena-D,Unknown,"SLC-2E (75-1-1), Vandenberg AFB, California, USA",1962,12,4,21,1,1,0.8423727516094486
+ISRO,GSLV Mk II,Unknown,"Second Launch Pad, Satish Dhawan Space Centre, India",2018,12,19,10,1,1,0.7270344602318017
+NASA,Saturn IB,Unknown,"LC-34, Cape Canaveral AFS, Florida, USA",1968,10,11,15,1,1,0.7905896319558907
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1962,6,23,0,1,1,0.8480090479819992
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1969,11,15,8,1,1,0.9421093899405146
+MHI,H-IIA 2022,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2007,9,14,1,1,1,0.9612496470048715
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1981,11,17,15,1,1,0.9353664965574323
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1977,3,10,11,1,1,0.9546122755542895
+Boeing,Delta II 7920-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2001,12,7,15,1,1,0.9791281792601713
+RVSN USSR,Vostok,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1959,6,18,8,0,1,0.6966961250984349
+CASC,Long March 4C,Unknown,"LC-3, Xichang Satellite Launch Center, China",2018,5,20,21,1,1,0.9104675925652044
+RVSN USSR,Molniya,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1965,4,23,1,1,1,0.6053905894728316
+Lockheed,Athena II,Unknown,"SLC-6, Vandenberg AFB, California, USA",1999,4,27,18,0,1,0.8737788544848875
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1979,7,11,15,1,1,0.9258535385207969
+ISRO,GSLV Mk II,Unknown,"Second Launch Pad, Satish Dhawan Space Centre, India",2017,5,5,11,1,1,0.7535061813048063
+ULA,Delta IV Heavy,Military,"SLC-37B, Cape Canaveral AFS, Florida, USA",2009,1,18,2,1,1,0.9912821769693407
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1977,9,13,15,1,1,0.9428175111487479
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1975,4,22,21,1,1,0.9183151825213539
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1969,6,3,12,1,1,0.9303253898512139
+ISRO,GSLV Mk II,Unknown,"Second Launch Pad, Satish Dhawan Space Centre, India",2014,1,5,10,1,1,0.7733696402944986
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1981,8,4,8,1,1,0.9576262112247327
+NASA,Atlas-D Mercury,Unknown,"LC-14, Cape Canaveral AFS, Florida, USA",1961,4,25,16,0,1,0.7530217270197513
+US Air Force,Titan IIIB,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1967,2,24,19,1,1,0.9311364273764787
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1982,8,30,19,1,1,0.9434506163682341
+CASC,Long March 4B,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2016,6,29,3,1,1,0.9837152775284599
+ISRO,GSLV Mk II,Unknown,"Second Launch Pad, Satish Dhawan Space Centre, India",2015,8,27,11,1,1,0.7374903144514828
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1974,5,15,12,1,1,0.9345929996311191
+CASIC,Kuaizhou 1,Unknown,"Jiuquan Satellite Launch Center, China",2013,9,25,4,1,1,0.9143859790901
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1971,12,17,13,1,1,0.9458729818542818
+General Dynamics,Atlas-SLV3D Centaur-D1A,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1973,8,23,22,1,1,0.7296318869608039
+RVSN USSR,Soyuz,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1967,10,30,8,1,1,0.9163577754249118
+Boeing,Delta II 6920-10,Unknown,"SLC-17A, Cape Canaveral AFS, Florida, USA",1990,6,1,21,1,1,0.9310351176336739
+Sea Launch,Zenit-3 SL,Unknown,"LP Odyssey, Kiritimati Launch Area, Pacific Ocean",2006,8,22,3,1,1,0.9031573483633053
+CASC,Long March 2C,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2018,7,9,3,1,1,0.9874596344835967
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1975,2,28,14,1,1,0.9554876797363281
+VKS RF,Molniya-M /Block ML,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1995,8,9,1,1,1,0.9626288219362802
+Boeing,Delta II 7320-10C,Unknown,"SLC-17A, Cape Canaveral AFS, Florida, USA",2004,11,20,17,1,1,0.9381814787909976
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1971,4,1,11,1,1,0.9571809477998865
+General Dynamics,Atlas-SLV3A Agena-D,Unknown,"LC-13, Cape Canaveral AFS, Florida, USA",1977,5,23,18,1,1,0.8524613322246339
+SpaceX,Falcon 9 v1.0,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2010,12,8,15,1,1,0.9222973031681551
+NASA,Atlas-D Mercury,Unknown,"LC-14, Cape Canaveral AFS, Florida, USA",1961,9,13,14,1,1,0.7426240648088207
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1968,6,11,21,1,1,0.9458357650489224
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1970,9,17,8,1,1,0.9446197368766301
+ULA,"Delta IV Medium+ (4,2)",Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",2014,7,28,23,1,1,0.9794853165322404
+Lockheed,Atlas II,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1998,3,16,21,1,1,0.9455643646159236
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1978,10,6,15,1,1,0.9419074818539902
+ISRO,PSLV-XL,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2018,4,11,22,1,1,0.8969521253794627
+AMBA,Juno I,Unknown,"LC-5, Cape Canaveral AFS, Florida, USA",1958,10,23,3,0,1,0.6807971970169688
+Arianespace,Ariane 42P,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1996,9,11,0,1,1,0.9689708207409106
+VKS RF,Soyuz 2.1b/Fregat-M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",2017,5,25,6,1,1,0.9033196309048586
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1976,3,12,13,1,1,0.9346562457707154
+VKS RF,Tsyklon-3,Unknown,"Site 32/2, Plesetsk Cosmodrome, Russia",1992,11,24,4,1,1,0.951021832122083
+General Dynamics,Atlas-E/F OV1,Unknown,"LC-576A2, Vandenberg AFB, California, USA",1969,3,18,7,1,1,0.8890967220072084
+Northrop,Antares 230,Cargo,"LP-0A, Wallops Flight Facility, Virginia, USA",2017,11,12,12,1,1,0.9251249491462111
+Lockheed,Titan IV(401)B,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2001,2,27,21,1,1,0.8579839526614853
+Northrop,Antares 230+,Cargo,"LP-0A, Wallops Flight Facility, Virginia, USA",2019,11,2,13,1,1,0.907107682662206
+NASA,Space Shuttle Challenger,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1984,2,3,13,1,1,0.9368848157915002
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1985,10,23,17,0,1,0.9227614875328342
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/2, Plesetsk Cosmodrome, Russia",1986,2,11,6,1,1,0.9525005899291182
+CASC,Long March 3B/E,Unknown,"LC-2, Xichang Satellite Launch Center, China",2018,11,1,15,1,1,0.8767208488933673
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2015,9,30,20,1,1,0.9729509194657001
+RVSN USSR,Proton K/Block D,Unknown,"Site 81/23, Baikonur Cosmodrome, Kazakhstan",1971,5,28,15,1,1,0.5373630087813545
+Lockheed,Atlas IIA,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",2002,3,8,22,1,1,0.9482934606218157
+RVSN USSR,Molniya,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1962,10,24,17,0,0,0.46565218292876637
+RVSN USSR,Vostok-2M,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1970,4,28,10,1,1,0.9633470751423563
+US Air Force,Titan IIIB,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1968,8,6,18,1,1,0.9245305414512893
+RVSN USSR,Soyuz U,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1978,2,14,9,1,1,0.9598982346861118
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1970,11,24,10,1,1,0.925685726010484
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-2E (75-1-1), Vandenberg AFB, California, USA",1961,6,16,23,1,1,0.7634149163697065
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1990,1,18,12,1,1,0.9443738527466866
+ISRO,PSLV-G,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2011,4,20,4,1,1,0.8457552581396189
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2009,2,12,22,1,1,0.9754903270436508
+NASA,Space Shuttle Atlantis,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",1989,5,4,18,1,1,0.973476683460099
+CASC,Long March 2D,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2016,5,15,2,1,1,0.9736181224081548
+NASA,Space Shuttle Discovery,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1991,4,28,11,1,1,0.9807583854114197
+Boeing,Delta II 7925,Navigation,"SLC-17B, Cape Canaveral AFS, Florida, USA",2003,1,29,18,1,1,0.9669740219026692
+Eurockot,Rokot/Briz KM,Earth Observation,"Site 133/3, Plesetsk Cosmodrome, Russia",2017,10,13,9,1,1,0.8869248940110506
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Site 86/1, Kapustin Yar, Russia",1966,7,8,5,1,1,0.8768225353409472
+General Dynamics,Atlas-SLV3A Agena-D,Unknown,"LC-13, Cape Canaveral AFS, Florida, USA",1978,4,7,0,1,1,0.9056026434290992
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1967,9,12,17,1,1,0.9154674775797657
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1982,6,6,17,1,1,0.949059737578925
+CASC,Long March 2D,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2020,7,4,23,1,1,0.9537174782685063
+Lockheed,Atlas I,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1997,4,25,5,1,1,0.8669863661906378
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1981,9,28,21,1,1,0.9392081374922373
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1982,6,18,11,0,1,0.9559174158491243
+RVSN USSR,Molniya-M /Block NVL,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1972,3,31,4,0,1,0.8786695055451679
+Roscosmos,Soyuz FG,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",2016,10,19,8,1,1,0.928157580396176
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1974,4,20,20,1,1,0.9275987097762799
+General Dynamics,Atlas-SLV3 Agena-D,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1966,7,12,17,1,1,0.9209732762462237
+CASC,Long March 4C,Unknown,"LC-9, Taiyuan Satellite Launch Center, China",2018,3,31,3,1,1,0.8898861104927837
+Arianespace,Soyuz ST-B/Fregat-MT,Navigation,"ELS, Guiana Space Centre, French Guiana, France",2014,8,22,12,0,1,0.9876988177375047
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1974,10,18,22,1,1,0.9356170747736261
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1968,1,19,22,1,1,0.9461432696633356
+RVSN USSR,Vostok-2,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1963,7,10,10,0,1,0.7803574814454495
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1977,3,17,8,1,1,0.9577688859124603
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1974,5,23,12,0,1,0.9507436379895979
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1976,7,23,15,1,1,0.8868511664659995
+ILS,Atlas IIAS,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",2001,6,19,4,1,1,0.9818567481642395
+VKS RF,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",2002,4,1,22,1,1,0.9561840986005613
+RVSN USSR,Soyuz U,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1974,3,20,8,1,1,0.9595367231539784
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1986,11,24,21,1,1,0.9374011691612428
+Lockheed,Atlas IIA,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1995,12,15,0,1,1,0.9631112281196055
+Boeing,Delta II 7425,Unknown,"SLC-17A, Cape Canaveral AFS, Florida, USA",2002,7,3,6,1,1,0.9561498223260136
+CASC,Long March 3A,Unknown,"LC-2, Xichang Satellite Launch Center, China",1997,5,11,16,1,1,0.9170511959742339
+Martin Marietta,Titan III(23)C,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1979,10,1,11,1,1,0.8232306159354184
+CASC,Long March 2D,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2005,7,5,22,1,1,0.9532254260159279
+Roscosmos,Soyuz FG,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",2018,3,21,17,1,1,0.8523806681606128
+General Dynamics,Atlas-E/F Star-37S-ISS,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1978,10,13,11,1,1,0.8632886953468965
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1969,9,24,12,1,1,0.9359824098540152
+Martin Marietta,Titan IV(402)A,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1994,12,22,22,1,1,0.8285498371782466
+RVSN USSR,Molniya,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1965,5,9,7,1,1,0.5632667892432599
+General Dynamics,Atlas I,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1990,7,25,19,1,1,0.61139784955044
+Lockheed,Atlas IIIB,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",2003,12,10,2,1,1,0.9494005500872549
+General Dynamics,Atlas-SLV3D Centaur-D1AR,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1980,10,31,3,1,1,0.9127474926975333
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2010,6,26,21,1,1,0.9737739492987334
+SpaceX,Falcon 9 Block 5,Unknown,"SLC-4E, Vandenberg AFB, California, USA",2019,6,12,14,1,1,0.9753517015347283
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1986,12,12,18,1,1,0.9191613231389433
+CASC,Long March 2D,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2020,8,6,4,1,1,0.9707390196305327
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1976,7,27,12,1,1,0.9529422697473992
+Roscosmos,Proton-M/DM-3,Unknown,"Site 81/24, Baikonur Cosmodrome, Kazakhstan",2019,12,24,12,1,1,0.6634308286204823
+RVSN USSR,Proton K/Block D,Unknown,"Site 81/24, Baikonur Cosmodrome, Kazakhstan",1972,2,14,3,1,1,0.6027812476826413
+RVSN USSR,Vostok-2,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1967,1,19,12,1,1,0.8855443321483524
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1976,2,11,8,1,1,0.9531935338666784
+US Air Force,Scout X-3,Unknown,"SLC-5, Vandenberg AFB, California, USA",1963,6,16,1,1,1,0.7824960649994864
+CASC,Long March 2E,Unknown,"LC-2, Xichang Satellite Launch Center, China",1995,12,28,11,1,1,0.8453035208025277
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1985,11,28,13,1,1,0.9282701432747305
+Boeing,Delta II 7920-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2002,5,4,9,1,1,0.9847763882667665
+NASA,Space Shuttle Atlantis,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",2000,9,8,12,1,1,0.9757470533652036
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1974,9,26,16,1,1,0.9182431114686241
+VKS RF,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1996,12,11,12,1,1,0.9834598019166214
+RVSN USSR,Vostok-2,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1962,12,22,9,1,1,0.7634389279164056
+Roscosmos,Soyuz FG,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",2019,7,20,16,1,1,0.844431762894509
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1972,6,9,6,1,1,0.951037758734414
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1990,8,28,15,1,1,0.9301119275103125
+ULA,Atlas V 551,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",2020,3,26,20,1,1,0.9699934302559289
+Roscosmos,Soyuz FG,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",2018,6,6,11,1,1,0.8641966623010183
+Roscosmos,Soyuz FG,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",2019,3,14,19,1,1,0.8464189391639445
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1E (75-3-5), Vandenberg AFB, California, USA",1961,4,8,19,1,1,0.7936182707126822
+General Dynamics,Atlas-D OV1,Unknown,"LC-576B3, Vandenberg AFB, California, USA",1966,12,11,21,1,0,0.402297656496192
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1990,11,20,2,1,1,0.9643829600479134
+RVSN USSR,Vostok-2,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1963,4,28,8,1,1,0.7989189885194883
+NASA,Space Shuttle Discovery,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",2009,8,28,3,1,1,0.9836163303634925
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1967,2,8,10,1,1,0.9477333307876373
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1977,12,8,11,1,1,0.9494414871541007
+General Dynamics,Atlas II,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1993,7,19,22,1,1,0.852720752476618
+US Air Force,Thor-DM18 Agena-A,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1959,8,13,19,1,1,0.5800177034328763
+ULA,Atlas V 551,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",2013,7,19,13,1,1,0.9722214946129395
+US Air Force,Thor-DM18 Agena-A,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1960,6,29,22,0,1,0.5704707408123454
+General Dynamics,Atlas-H MSD,Unknown,"SLC-3E, Vandenberg AFB, California, USA",1987,5,15,15,1,1,0.8192005837428752
+ULA,Atlas V 401,Earth Observation,"SLC-3E, Vandenberg AFB, California, USA",2013,2,11,18,1,1,0.955963798884232
+SpaceX,Falcon 9 v1.1,Unknown,"SLC-4E, Vandenberg AFB, California, USA",2016,1,17,18,1,1,0.9483340930225647
+CASC,Long March 4C,Unknown,"LC-9, Taiyuan Satellite Launch Center, China",2019,10,4,18,1,1,0.8251467796413448
+Lockheed,Titan II(23)G,Unknown,"SLC-4W, Vandenberg AFB, California, USA",2000,9,21,10,1,1,0.9499587497138928
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1970,12,10,11,1,1,0.9340115689162369
+SRC,Volna,Unknown,"K-496 Submarine, Barents Sea Launch Area, Barents Sea",2005,6,21,19,0,1,0.8537014879584798
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1979,6,27,18,1,1,0.9354594079231556
+Exos,SARGE,Unknown,"Vertical Launch Area, Spaceport America, New Mexico",2019,10,26,17,0,0,0.28408814714856356
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1968,7,30,7,1,1,0.9476926283661844
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1969,12,25,9,1,1,0.9541095058347387
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1977,9,13,19,1,1,0.9143484802452744
+Martin Marietta,Titan IIID,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1980,2,7,21,1,1,0.949389327217236
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1991,8,22,12,1,1,0.9311678223134924
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1975,9,2,13,1,1,0.9406576994168907
+Northrop,Pegasus XL,Unknown,"Stargazer, Vandenberg AFB, California, USA",2003,6,26,18,1,1,0.918627792179477
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1970,6,10,9,1,1,0.9469559478119296
+SpaceX,Falcon Heavy,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",2018,2,6,20,1,1,0.9679680028252151
+RVSN USSR,Soyuz U,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1976,11,1,11,1,1,0.9396710959814143
+CASC,Long March 4B,Unknown,"LC-9, Taiyuan Satellite Launch Center, China",2016,5,30,3,1,1,0.9452510860126108
+General Dynamics,Atlas-LV3 Agena-B,Unknown,"LC-12, Cape Canaveral AFS, Florida, USA",1965,3,21,21,1,1,0.5584545532851465
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1968,4,18,22,1,1,0.9466331906869604
+Lockheed,Titan IV(401)B,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2003,4,8,13,1,1,0.8784893428295382
+Northrop,Pegasus,Unknown,"NB-52B Carrier, Edwards AFB, California, USA",1990,4,5,19,1,1,0.8287482738717121
+Boeing,Delta II 7925,Unknown,"SLC-17A, Cape Canaveral AFS, Florida, USA",1996,11,7,17,1,1,0.9356967865938774
+RVSN USSR,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1985,12,28,9,0,1,0.8540918734953151
+General Dynamics,Atlas-SLV3D Centaur-D1AR,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1978,2,9,21,1,1,0.887199388805342
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1990,7,25,18,1,1,0.951022461274858
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1969,3,17,16,1,1,0.9517490393258903
+SpaceX,Falcon 9 Block 5,Communications,"SLC-40, Cape Canaveral AFS, Florida, USA",2020,1,7,2,1,1,0.9866198527657252
+Arianespace,Ariane 44P,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1991,9,26,23,1,1,0.9685299375804685
+Northrop,Pegasus XL,Unknown,"Stargazer, Vandenberg AFB, California, USA",1994,6,27,21,0,1,0.9107033769150886
+General Dynamics,Atlas-SLV3 Agena-D,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1965,11,8,19,1,1,0.9098240203253634
+General Dynamics,Atlas-SLV3C Centaur-D,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1972,6,13,21,1,1,0.8284028328673801
+Sea Launch,Zenit-3 SL,Unknown,"LP Odyssey, Kiritimati Launch Area, Pacific Ocean",2009,4,20,8,1,1,0.9003150521745793
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1978,3,28,1,1,1,0.9513431868565912
+VKS RF,Molniya-M /Block ML,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",2003,6,19,20,1,1,0.9571692650513293
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1968,10,3,12,1,1,0.9240111689419106
+VKS RF,Molniya-M /Block ML,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1993,1,13,1,1,1,0.9637704772233521
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2010,10,28,23,1,1,0.9698125693150074
+US Air Force,Thor-DM18 Agena-A,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1959,6,3,20,0,1,0.5859305214258838
+VKS RF,Angara 1.2,Unknown,"Site 35/1, Plesetsk Cosmodrome, Russia",2014,7,9,12,1,1,0.910271865164647
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1974,11,21,10,1,1,0.9179391790861097
+ISRO,PSLV-XL,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2013,11,5,9,1,1,0.911914216848697
+NASA,Saturn IB,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",1975,7,15,19,1,1,0.9420435580490387
+RVSN USSR,Voskhod,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1971,4,2,8,1,1,0.9481920029415424
+RVSN USSR,Soyuz U,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1977,4,7,8,1,1,0.9518230798834193
+NASA,Scout X-1,Unknown,"LA-3, Wallops Flight Facility, Virginia, USA",1961,2,16,13,1,1,0.5009981556399399
+NASA,Space Shuttle Discovery,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1984,11,8,12,1,1,0.9767621928813898
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1968,4,7,10,1,1,0.8673209976272778
+RVSN USSR,Soyuz,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1974,5,27,7,1,1,0.9277610466361264
+RVSN USSR,Voskhod,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1973,8,30,10,1,1,0.8885139093799918
+CNES,Diamant BP4,Unknown,"ELD, Guiana Space Centre, French Guiana, France",1975,5,17,14,1,1,0.809221127294536
+RVSN USSR,Vostok-2M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1971,7,16,1,1,1,0.9649419275990782
+Northrop,Antares 110,Cargo,"LP-0A, Wallops Flight Facility, Virginia, USA",2013,9,13,14,1,1,0.9080305024073486
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1968,12,16,9,1,1,0.8477436373635439
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1971,7,22,13,0,1,0.9512980146782222
+SpaceX,Falcon 9 Block 3,Communications,"LC-39A, Kennedy Space Center, Florida, USA",2017,3,30,22,1,1,0.9837090566620748
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1984,11,27,14,0,1,0.9221136800300521
+Martin Marietta,Titan III(23)C,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1981,10,31,9,1,1,0.8293010589616717
+VKS RF,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1998,9,9,20,0,1,0.8454757538477776
+SpaceX,Falcon Heavy,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",2019,6,25,6,1,1,0.975363328311648
+VKS RF,Soyuz 2.1b/Fregat-M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",2020,3,16,18,1,1,0.878295735553152
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1984,11,15,6,1,1,0.9358767136432536
+ULA,Delta II 7420-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2007,6,8,2,1,1,0.9905021642984303
+CASC,Long March 4C,Unknown,"LC-7, Taiyuan Satellite Launch Center, China",2007,11,11,22,1,1,0.9181163660357927
+RVSN USSR,Vostok-2A,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1965,12,27,22,1,1,0.8760534328307993
+NASA,Space Shuttle Columbia,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",1995,10,20,13,1,1,0.9719951271891604
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1972,8,21,10,1,1,0.9541090948901246
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1972,11,25,9,1,1,0.9407852422357129
+NASA,Saturn V,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1971,1,31,21,1,1,0.9648055359277318
+NASA,Space Shuttle Columbia,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1993,4,26,14,1,1,0.977399442686551
+Roscosmos,Zenit-3 SLBF,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",2011,1,20,12,1,1,0.9337103435554545
+ULA,Atlas V 541,Military,"SLC-3E, Vandenberg AFB, California, USA",2017,9,24,5,1,1,0.9762911504147666
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",2005,1,20,3,1,1,0.9588486444260256
+Roscosmos,Soyuz 2.1a,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",2017,6,14,9,1,1,0.9510028025631433
+ILS,Atlas IIAS,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1997,12,8,23,1,1,0.9661133143960048
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1961,10,13,19,1,1,0.7559503316303584
+RVSN USSR,Soyuz,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1966,12,14,11,0,1,0.9528831105516542
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1981,5,7,13,1,1,0.932755579352397
+NASA,Saturn I,Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",1965,7,30,13,1,1,0.9414487261746248
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Mayak-2, Kapustin Yar, Russia",1963,10,24,4,0,1,0.7845206800813819
+Arianespace,Ariane 5 G+,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2004,12,18,16,1,1,0.9591824518439178
+Martin Marietta,Titan IIIE,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",1974,12,10,7,1,1,0.7902031212682272
+Sea Launch,Zenit-3 SL,Unknown,"LP Odyssey, Kiritimati Launch Area, Pacific Ocean",2004,6,29,3,1,1,0.9063515556665057
+US Air Force,Delta A,Unknown,"SLC-17B, Cape Canaveral AFS, Florida, USA",1962,10,27,23,1,1,0.6798857021726901
+RVSN USSR,Voskhod,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1975,5,30,6,1,1,0.9494281976328786
+CASC,Long March 2E,Unknown,"LC-2, Xichang Satellite Launch Center, China",1992,12,21,11,0,1,0.8448034449258838
+US Air Force,Titan III(24)B,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1973,5,16,16,1,1,0.933497058292607
+ULA,Delta IV Heavy,Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",2014,12,5,12,1,1,0.9827148303511759
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2007,11,14,22,1,1,0.9699084898351941
+US Air Force,Titan III(24)B,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1984,4,17,17,1,1,0.934911346710135
+RVSN USSR,Soyuz U,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1977,8,10,10,0,1,0.9531139853936038
+General Dynamics,Atlas-LV3 Agena-A,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1961,1,31,20,1,1,0.6351429012396813
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1965,10,19,5,1,1,0.9600188427917852
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1973,4,19,10,1,1,0.9609581957881305
+VKS RF,Rokot/Briz KM,Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",2013,1,15,16,0,1,0.9242061639004142
+Northrop,Minotaur C (Taurus),Unknown,"SLC-576E, Vandenberg AFB, California, USA",2009,2,24,9,0,1,0.8383494525986119
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1994,7,14,5,1,1,0.9527224107822274
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1971,4,24,11,1,1,0.9344902726193414
+General Dynamics,Atlas-LV3 Agena-B,Unknown,"SLC-3E, Vandenberg AFB, California, USA",1963,5,9,20,1,1,0.6398758618653427
+RVSN USSR,Tsyklon-2A,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1968,10,20,4,1,1,0.9367893048696587
+Lockheed,Atlas IIA,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1998,10,20,7,1,1,0.9580507780675972
+ULA,"Delta IV Medium+ (4,2)",Navigation,"SLC-37B, Cape Canaveral AFS, Florida, USA",2014,2,21,1,1,1,0.9951557210607378
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1971,1,12,9,1,1,0.9524587203585437
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1986,12,2,7,1,1,0.9340409562829306
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1982,6,25,2,1,1,0.9570239857513441
+General Dynamics,Atlas-SLV3D Centaur-D1AR,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1975,9,26,0,1,1,0.9409600331353289
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1977,7,1,11,1,1,0.9327739343180558
+ISRO,GSLV Mk I,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2001,4,18,10,0,1,0.7204423885713337
+SpaceX,Falcon 9 Block 4,Unknown,"SLC-4E, Vandenberg AFB, California, USA",2018,3,30,14,1,1,0.9692691255019791
+Boeing,Delta II 7320-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2003,1,13,0,1,1,0.9862299900589615
+NASA,Space Shuttle Atlantis,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1991,11,24,23,1,1,0.9691401444123547
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1983,3,30,1,1,1,0.9518627772715783
+Land Launch,Zenit-3 SLB,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",2011,10,5,21,1,1,0.7897676344588309
+Northrop,Minotaur I,Unknown,"SLC-8, Vandenberg AFB, California, USA",2000,1,27,3,1,1,0.9591093611581543
+Arianespace,Ariane 5 G,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2000,11,16,1,1,1,0.9439278109341741
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1975,8,13,7,1,1,0.9478456304556934
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-2E (75-1-1), Vandenberg AFB, California, USA",1961,8,4,0,0,1,0.850343874122978
+RVSN USSR,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1985,10,22,7,1,1,0.8662608209360492
+General Dynamics,Atlas-E/F Star-37S-ISS,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1987,6,20,2,1,1,0.899293156016997
+Arianespace,Ariane 44P,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",2000,9,6,22,1,1,0.9702686142690038
+ISRO,PSLV-CA,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2014,6,30,4,1,1,0.9493290589319324
+CASC,Long March 2D,Unknown,"Site 138 (LA-2B), Jiuquan Satellite Launch Center, China",1994,7,3,8,1,1,0.9012685623944994
+General Dynamics,Atlas-SLV3 Agena-D,Unknown,"LC-13, Cape Canaveral AFS, Florida, USA",1967,5,4,22,1,1,0.8568975816681487
+ULA,Delta II 7920H-10C,Unknown,"SLC-17B, Cape Canaveral AFS, Florida, USA",2008,6,11,16,1,1,0.9451017941620242
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1983,10,26,17,1,1,0.9172781788674711
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1968,4,21,4,1,1,0.8837311590341466
+Lockheed,Athena I,Unknown,"SLC-6, Vandenberg AFB, California, USA",1997,8,23,6,1,1,0.8071309732781679
+MHI,N-I,Unknown,"LA-Y1, Tanegashima Space Center, Japan",1976,2,29,3,1,1,0.9638926844741185
+VKS RF,Soyuz 2.1b/Fregat-M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",2020,5,22,7,1,1,0.9017884606136083
+Roscosmos,Soyuz 2.1a/Volga,Unknown,"Site 1S, Vostochny Cosmodrome, Russia",2016,4,28,2,1,1,0.8840118914418376
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1977,7,13,5,1,1,0.9416893357310706
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1974,2,27,11,1,1,0.9375677283348398
+General Dynamics,Atlas-SLV3 Agena-D,Unknown,"LC-14, Cape Canaveral AFS, Florida, USA",1966,5,17,15,0,1,0.7820122797597142
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1970,7,9,13,1,1,0.9377172066948891
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",2002,3,29,1,1,1,0.9809313717720318
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1987,6,18,21,1,1,0.9442238237350119
+Northrop,Pegasus XL,Unknown,"Stargazer, Vandenberg AFB, California, USA",1995,6,22,19,0,1,0.9152807020154589
+General Dynamics,Atlas-SLV3C Centaur-D,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1972,3,3,1,1,1,0.8635391340872783
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1982,5,20,13,1,1,0.9447491412125628
+Boeing,Delta II 7925-10,Unknown,"SLC-17B, Cape Canaveral AFS, Florida, USA",1994,11,1,9,1,1,0.9243504511419145
+Lockheed,Titan IV(405)A,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1996,7,3,0,1,1,0.9537035376907517
+SpaceX,Falcon 9 Block 4,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2018,1,8,1,1,1,0.9639638942342833
+ULA,Delta IV Heavy,Military,"SLC-37B, Cape Canaveral AFS, Florida, USA",2010,11,21,22,1,1,0.9816661867704071
+NASA,Space Shuttle Discovery,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",1990,10,6,11,1,1,0.9755350680570999
+ISRO,PSLV-XL,Unknown,"Second Launch Pad, Satish Dhawan Space Centre, India",2019,11,27,3,1,1,0.8648618559208314
+Boeing,Delta II 7920-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2002,2,11,17,1,1,0.9824295321323633
+Northrop,Minotaur I,Unknown,"SLC-8, Vandenberg AFB, California, USA",2005,9,22,19,1,1,0.9286873893124187
+CASC,Long March 3C,Unknown,"LC-2, Xichang Satellite Launch Center, China",2008,4,25,15,1,1,0.898150167000549
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1982,8,2,0,1,1,0.9872616740739525
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1987,6,23,7,1,1,0.9411187870453288
+RVSN USSR,Poliot,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1963,11,1,8,1,1,0.8437659746179976
+ESA,Ariane 5 G,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",1996,6,4,12,0,1,0.7561599162123478
+ILS,Atlas V 521,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",2003,7,17,23,1,1,0.9090187317688796
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/2, Plesetsk Cosmodrome, Russia",1986,10,15,5,0,1,0.9448230695886242
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1973,3,22,10,1,1,0.940006053240095
+ISRO,PSLV-CA,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2018,11,29,4,1,1,0.9441109433386
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1976,6,24,7,1,1,0.9557828797432908
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Site 86/1, Kapustin Yar, Russia",1967,12,19,6,1,1,0.8604883603116302
+VKS RF,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1998,5,7,8,1,1,0.9681916862794204
+US Air Force,Thor DM-19 Delta,Unknown,"SLC-17A, Cape Canaveral AFS, Florida, USA",1962,4,26,18,1,1,0.8419539822464659
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1985,6,18,0,1,1,0.9693469040984241
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1974,10,11,11,1,1,0.9511718334338475
+General Dynamics,Atlas-E/F Star-37S-ISS,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1991,5,14,15,1,1,0.8679509727542506
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1985,6,12,15,1,1,0.9553067528831634
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1978,7,27,4,1,1,0.9617135992317056
+MHI,H-IIA 202,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2011,9,11,11,1,1,0.9693139750547363
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",2003,9,27,6,1,1,0.9467908837421124
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1984,12,20,13,1,1,0.9474110648504525
+Martin Marietta,Titan IIIC,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",1967,7,1,13,1,1,0.7068013957156035
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1972,12,21,2,1,1,0.9589350850979228
+Martin Marietta,Titan IIIE,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",1977,9,5,12,1,1,0.7812253975312702
+CASC,Long March 2D,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2004,9,27,8,1,1,0.9652338652616647
+MHI,H-IIA 202,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2009,1,23,3,1,1,0.9788446965973954
+Virgin Orbit,LauncherOne,Unknown,"Cosmic Girl, Mojave Air and Space Port, California, USA",2020,5,25,19,0,1,0.8495891189271061
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2010,12,29,21,1,1,0.9700043714913369
+MHI,H-IIB,Unknown,"LA-Y2, Tanegashima Space Center, Japan",2011,1,22,5,1,1,0.9724282350614893
+CASC,Long March 2C,Unknown,"LC-3, Xichang Satellite Launch Center, China",2018,6,27,3,1,1,0.979133674862147
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1989,6,14,12,1,1,0.9380553359492624
+ULA,Atlas V 401,Navigation,"SLC-41, Cape Canaveral AFS, Florida, USA",2013,5,15,21,1,1,0.9814907859995333
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/2, Plesetsk Cosmodrome, Russia",1984,2,8,9,1,1,0.9486333607820949
+NASA,Scout X-1,Unknown,"LA-3, Wallops Flight Facility, Virginia, USA",1961,6,30,17,0,0,0.45029210508798506
+RVSN USSR,Soyuz U,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1975,9,29,4,1,1,0.9168827821706044
+RVSN USSR,Vostok-2M,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1976,3,16,17,1,1,0.9580471650409432
+Boeing,Delta II 6925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",1990,1,24,22,1,1,0.9788593702973517
+RVSN USSR,Molniya,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1964,11,30,13,1,0,0.4866897069309354
+Arianespace,Ariane 3,Unknown,"ELA-1, Guiana Space Centre, French Guiana, France",1987,9,16,0,1,1,0.9261637434864499
+CASC,Long March 2F,Unknown,"Site 901 (SLS-1), Jiuquan Satellite Launch Center, China",2002,12,29,16,1,1,0.9511146754387406
+MHI,H-IIA 202,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2014,5,24,3,1,1,0.9771384605810407
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1968,12,26,9,1,1,0.9539793553744842
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1969,8,29,9,1,1,0.9439831343709505
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1991,4,16,7,1,1,0.9443017817435416
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1975,7,17,9,1,1,0.934349645779683
+General Dynamics,Atlas-SLV3C Centaur-D,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1971,5,9,1,0,1,0.8574095629094706
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2006,10,13,20,1,1,0.9719799090336432
+RVSN USSR,Vostok-2M,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1969,3,26,12,0,1,0.9622257835958253
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1970,12,25,3,1,1,0.8670642162980217
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2006,3,11,22,1,1,0.9747714366508754
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1969,12,23,9,1,1,0.9816520842133671
+NASA,Saturn V,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1970,4,11,19,1,1,0.9645334937628695
+CASC,Long March 3B/E,Unknown,"LC-2, Xichang Satellite Launch Center, China",2019,1,10,17,1,1,0.8942342134867388
+NASA,Space Shuttle Columbia,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",1989,8,8,12,1,1,0.9736653574210778
+CASC,Long March 2C,Unknown,"Site 138 (LA-2B), Jiuquan Satellite Launch Center, China",1992,10,6,6,1,1,0.9530683648723585
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1E (75-3-5), Vandenberg AFB, California, USA",1961,2,18,22,1,1,0.7872441157858027
+Martin Marietta,Titan III(34)B Agena-D,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1981,4,24,21,1,1,0.9138513257117985
+Lockheed,Titan II(23)G,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1999,12,12,17,1,1,0.9366215581727345
+RVSN USSR,Molniya,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1961,2,4,1,0,1,0.6161769094791775
+RVSN USSR,Soyuz U,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1974,4,3,7,1,1,0.9600072547817942
+KARI,Naro-1,Unknown,"LC-1, Naro Space Center, South Korea",2010,6,10,8,0,1,0.685927992445899
+RVSN USSR,Vostok-2,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1966,4,20,10,1,1,0.8879718810422467
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1970,3,4,12,1,1,0.9370731091809906
+General Dynamics,Atlas-SLV3 Agena-D,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1966,9,16,17,1,1,0.9174398592973315
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1992,4,15,23,1,1,0.9651512211824205
+ULA,"Delta IV Medium+ (4,2)",Navigation,"SLC-37B, Cape Canaveral AFS, Florida, USA",2014,5,17,0,1,1,0.9949591410115931
+ILS,Proton-M/Briz-M,Unknown,"Site 200/39, Baikonur Cosmodrome, Kazakhstan",2016,1,29,22,1,1,0.9628414963070889
+Roscosmos,Soyuz FG,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",2018,12,3,11,1,1,0.8475440790006598
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1968,12,3,14,1,1,0.9168239984856211
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1996,12,20,6,1,1,0.9425061383573137
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1971,6,25,10,0,1,0.9356480051007076
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Mayak-2, Kapustin Yar, Russia",1962,4,24,4,1,1,0.8063396576469459
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1990,7,30,0,1,1,0.9499871059622553
+RVSN USSR,Proton K/Block D,Unknown,"Site 81/23, Baikonur Cosmodrome, Kazakhstan",1972,7,29,3,0,1,0.6039417633445628
+SpaceX,Falcon 9 Block 5,Communications,"LC-39A, Kennedy Space Center, Florida, USA",2020,3,18,12,1,1,0.9930123576652052
+Blue Origin,New Shepard,Unknown,"Blue Origin Launch Site, West Texas, Texas, USA",2016,10,6,15,1,1,0.933853541339454
+VKS RF,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",2002,11,28,6,1,1,0.9442929435560041
+Roscosmos,Soyuz 2.1a,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",2018,7,9,21,1,1,0.9329052146894732
+SpaceX,Falcon 9 Block 3,Cargo,"LC-39A, Kennedy Space Center, Florida, USA",2017,2,19,14,1,1,0.9758818259520742
+Boeing,Delta II 7925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",1996,7,16,0,1,1,0.9815561111895105
+MHI,N-I Star-37E,Unknown,"LA-Y1, Tanegashima Space Center, Japan",1979,2,6,8,0,1,0.9582119034372915
+NASA,Saturn V,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1968,4,4,12,0,1,0.9702840266913637
+SpaceX,Falcon 9 v1.0,Cargo,"SLC-40, Cape Canaveral AFS, Florida, USA",2012,10,8,0,0,1,0.953967479512521
+Arianespace,Ariane 5 ECA,Communications,"ELA-3, Guiana Space Centre, French Guiana, France",2018,1,25,22,0,1,0.9887215114751117
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2011,4,22,21,1,1,0.9750221505171291
+Martin Marietta,Titan IIID,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1973,7,13,20,1,1,0.9439497827173663
+Boeing,Delta II 7920-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",1998,5,17,21,1,1,0.9789035984410733
+MHI,H-IIA 202,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2018,10,29,4,1,1,0.973973716102726
+General Dynamics,Atlas-E/F Star-37S-ISS,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1988,9,24,10,1,1,0.8711283158329584
+General Dynamics,Atlas-E/F Star-37S-ISS,Unknown,"SLC-3W, Vandenberg AFB, California, USA",1986,9,17,15,1,1,0.8554541693464577
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1968,2,20,10,1,1,0.9621682372390948
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1986,6,12,4,1,1,0.9458843655138218
+Arianespace,Ariane 5 G,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2001,3,8,22,1,1,0.9212546567236545
+Boeing,Delta II 6925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",1990,10,2,5,1,1,0.9835163597710679
+ISAS,Mu-III S2,Unknown,"Mu Pad, Uchinoura Space Center, Japan",1985,2,7,19,1,1,0.9087250293057698
+Arianespace,Soyuz ST-B/Fregat-M,Unknown,"ELS, Guiana Space Centre, French Guiana, France",2018,11,7,0,1,1,0.9755018470000456
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1968,9,5,7,1,1,0.946040848283725
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Mayak-2, Kapustin Yar, Russia",1962,10,20,4,1,1,0.7844487697086837
+Roscosmos,Proton-M/Briz-M,Unknown,"Site 200/39, Baikonur Cosmodrome, Kazakhstan",2019,5,30,17,1,1,0.9421066896508197
+Martin Marietta,Titan III(23)C,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1972,3,1,9,1,1,0.8498248944932718
+Boeing,Delta II 7320-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2000,11,21,18,1,1,0.9723077335918111
+NASA,Space Shuttle Columbia,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1981,11,12,15,1,1,0.9723147963500214
+MHI,H-I UM-129A (9SO),Unknown,"LA-Y1, Tanegashima Space Center, Japan",1988,9,16,9,1,1,0.9549210714016343
+ULA,Delta IV Heavy,Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",2007,11,11,1,1,1,0.9870348893770815
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1973,12,25,11,1,1,0.9138113345162324
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1985,9,19,1,1,1,0.9866125820928425
+Boeing,Delta II 7925,Navigation,"SLC-17A, Cape Canaveral AFS, Florida, USA",1993,3,30,3,1,1,0.9815135935038629
+Boeing,Delta II 7920-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",1998,11,6,13,1,1,0.9804837294129756
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1977,4,5,10,1,1,0.9375287699657429
+Boeing,Delta IV Medium,Unknown,"SLC-37B, Cape Canaveral AFS, Florida, USA",2003,8,29,23,1,1,0.9667414439636128
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1973,11,2,13,1,1,0.9363983140875953
+NASA,Atlas-D Mercury,Unknown,"LC-14, Cape Canaveral AFS, Florida, USA",1962,2,20,14,1,1,0.7717075021694058
+RVSN USSR,Soyuz,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1968,4,15,9,1,1,0.9251371062205564
+NASA,Space Shuttle Atlantis,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",2006,9,9,15,1,1,0.9741680008816184
+US Air Force,Delta A,Unknown,"SLC-17B, Cape Canaveral AFS, Florida, USA",1962,10,2,22,1,1,0.6883202243218047
+Sea Launch,Zenit-3 SL,Unknown,"LP Odyssey, Kiritimati Launch Area, Pacific Ocean",2003,10,1,4,1,1,0.8969924583668802
+General Dynamics,Atlas-LV3C Centaur-C,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1965,3,2,13,0,1,0.5685718061349773
+RVSN USSR,Vostok-2M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1980,1,30,12,1,1,0.9599695839842776
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1974,7,12,12,1,1,0.9318497890057427
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2012,5,15,22,1,1,0.97395148029047
+VKS RF,Soyuz 2.1v/Volga,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",2017,6,23,18,1,1,0.841176539658383
+RVSN USSR,Soyuz U,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1978,12,28,16,1,1,0.937817859579481
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1977,11,24,14,1,1,0.9204411666854356
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/1, Plesetsk Cosmodrome, Russia",1984,10,18,17,1,1,0.9183266183821434
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1972,11,30,21,1,1,0.9397067440923169
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1980,12,10,20,1,1,0.9073911915530737
+Northrop,Minotaur I,Unknown,"SLC-8, Vandenberg AFB, California, USA",2005,4,11,13,1,1,0.9450109375866727
+RVSN USSR,Soyuz U,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1977,7,27,18,1,1,0.9335067067090533
+VKS RF,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1993,9,16,7,1,1,0.8834782273461917
+SpaceX,Falcon 9 Block 5,Navigation,"SLC-40, Cape Canaveral AFS, Florida, USA",2020,6,30,20,1,1,0.9761715937558044
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1961,12,12,20,1,1,0.7425465801087369
+MHI,H-IIA 2024,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2007,2,24,4,1,1,0.9663895998427353
+ISRO,PSLV-G,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2003,10,17,4,1,1,0.8244634013185468
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 16/2, Plesetsk Cosmodrome, Russia",1984,4,4,1,1,1,0.9700490304498909
+RVSN USSR,Proton K/Block D,Unknown,"Site 81/24, Baikonur Cosmodrome, Kazakhstan",1969,10,22,14,0,0,0.48349296159712163
+RVSN USSR,Voskhod,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1965,2,22,7,1,1,0.9068391731194949
+RVSN USSR,Soyuz U,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1977,5,26,7,1,1,0.951541484333809
+NASA,Saturn V,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1972,12,19,19,1,1,0.9577792265949001
+CASC,Long March 2D,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2007,5,25,7,1,1,0.9692174102491138
+Northrop,Pegasus XL,Unknown,"Stargazer, Ronald Reagan Ballistic Missile Defense Test Site, Marshall Islands, USA",2008,10,19,17,1,1,0.92356916449037
+Martin Marietta,Titan IIID,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1972,10,10,18,1,1,0.9430634541380822
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1971,1,26,12,1,1,0.9369555316661312
+Boeing,Delta II 7925-10L,Unknown,"SLC-17B, Cape Canaveral AFS, Florida, USA",2006,10,26,0,1,1,0.9422166253340261
+NASA,Saturn V,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1969,11,14,16,1,1,0.9615278823010591
+Roscosmos,Soyuz FG,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",2010,4,2,4,1,1,0.8872252161940206
+Martin Marietta,Titan IIIC,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",1967,4,28,10,1,1,0.7336924356937089
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1977,10,25,5,1,1,0.9374654807079504
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1969,2,25,10,1,1,0.9475484029088884
+US Air Force,Thor DM-19 Delta,Unknown,"SLC-17A, Cape Canaveral AFS, Florida, USA",1962,6,19,12,1,1,0.8567729043637397
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1971,5,6,6,1,1,0.9520448329363453
+Arianespace,Soyuz ST-B/Fregat-MT,Navigation,"ELS, Guiana Space Centre, French Guiana, France",2015,3,27,21,1,1,0.9861105198279376
+SpaceX,Falcon 9 Block 5,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2018,9,10,4,1,1,0.9646986158625975
+ILS,Atlas V 551,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",2006,1,19,19,1,1,0.9353688454868004
+General Dynamics,Atlas-H MSD,Unknown,"SLC-3E, Vandenberg AFB, California, USA",1984,2,5,18,1,1,0.8172800140843118
+Northrop,Minotaur C (Taurus),Unknown,"SLC-576E, Vandenberg AFB, California, USA",2004,5,20,17,1,1,0.7952529154627336
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Mayak-2, Kapustin Yar, Russia",1963,4,6,3,0,1,0.8121940380091522
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1978,5,16,10,1,1,0.953745435111606
+Blue Origin,New Shepard,Unknown,"Blue Origin Launch Site, West Texas, Texas, USA",2018,7,18,15,1,1,0.9378820940838916
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1982,7,21,6,1,1,0.9602232222768203
+NASA,Saturn IB,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",1973,5,25,13,1,1,0.9517449358446153
+CASC,Long March 2C,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2006,9,9,7,1,1,0.9850186209781716
+Arianespace,Ariane 44P,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1991,4,4,23,1,1,0.9721264763477983
+MHI,H-II,Unknown,"LA-Y1, Tanegashima Space Center, Japan",1997,11,27,21,1,1,0.8685225387026605
+Lockheed,Titan IV(401)B,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1997,10,15,8,1,1,0.8759699392610432
+RVSN USSR,Vostok-2M,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1980,8,15,5,1,1,0.9654415742640722
+ISRO,PSLV-XL,Unknown,"First Launch Pad, Satish Dhawan Space Centre, India",2017,6,23,3,1,1,0.931482424746852
+RVSN USSR,Vostok-2M,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1977,12,14,9,1,1,0.9528642007543282
+Eurockot,Rokot/Briz KM,Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",2003,6,30,14,1,1,0.8895533433511971
+CASC,Long March 3B/E,Unknown,"LC-2, Xichang Satellite Launch Center, China",2018,12,7,18,1,1,0.8649427083565657
+Northrop,Minotaur IV,Unknown,"SLC-46, Cape Canaveral AFS, Florida, USA",2017,8,25,6,1,1,0.9392516683354194
+ULA,Delta II 7920H-10C,Unknown,"SLC-17B, Cape Canaveral AFS, Florida, USA",2011,9,10,13,1,1,0.946054239663332
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1986,10,20,8,1,1,0.9404211407460878
+VKS RF,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1997,5,20,7,0,1,0.893280260450239
+RVSN USSR,N1-L3,Unknown,"Site 110/38, Baikonur Cosmodrome, Kazakhstan",1969,2,21,9,0,1,0.6234960951665002
+Starsem,Soyuz FG/Fregat,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",2003,6,2,17,1,1,0.8810879892062051
+RVSN USSR,Proton K/Block D,Unknown,"Site 81/23, Baikonur Cosmodrome, Kazakhstan",1967,3,10,11,1,1,0.5744080408334751
+JAXA,H-IIA 202,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2020,7,19,21,1,1,0.9141832921917671
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1972,10,4,12,1,1,0.935668748021409
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1972,8,16,13,1,1,0.9504919351461903
+MHI,H-IIA 204,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2015,11,24,6,1,1,0.9567115832581119
+RVSN USSR,N1-L3,Unknown,"Site 110/37, Baikonur Cosmodrome, Kazakhstan",1971,6,26,23,0,1,0.5232292734802055
+RVSN USSR,Molniya,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1964,8,22,7,1,1,0.544143059917981
+Boeing,Delta II 7920-10,Unknown,"SLC-2W, Vandenberg AFB, California, USA",1999,2,23,10,1,1,0.9799540131217965
+RVSN USSR,Soyuz M,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1973,12,17,12,1,1,0.8056040808519364
+RVSN USSR,Cosmos-3MRB (65MRB),Unknown,"Site 86/1, Kapustin Yar, Russia",1984,12,19,3,1,1,0.9609103021064953
+General Dynamics,Atlas-SLV3 Agena-D,Unknown,"SLC-4E, Vandenberg AFB, California, USA",1965,5,27,19,1,1,0.919714565782167
+CASC,Long March 4A,Unknown,"Taiyuan Satellite Launch Center, China",1990,9,3,0,1,1,0.9425841363177747
+RVSN USSR,Soyuz U,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1978,12,8,9,1,1,0.9502968847738056
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1996,5,16,1,1,1,0.9799005894432027
+General Dynamics,Atlas-LV3C Centaur-D,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1967,4,17,7,1,1,0.8656290020307243
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2015,4,26,20,1,1,0.9758397844122527
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Mayak-2, Kapustin Yar, Russia",1964,2,27,13,1,1,0.775303699116204
+US Air Force,Titan III(24)B,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1975,10,9,19,1,1,0.9210972662723332
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2005,11,16,23,1,1,0.9689527690340872
+CASC,Long March 2E,Unknown,"LC-2, Xichang Satellite Launch Center, China",1994,8,27,23,1,1,0.8132998153306369
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1989,11,24,23,1,1,0.97546395237713
+RVSN USSR,Tsyklon-2A,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1968,4,24,16,0,1,0.8170406401117493
+RVSN USSR,Soyuz U,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1978,9,9,15,1,1,0.9436297831063978
+Roscosmos,Soyuz FG,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",2018,11,16,18,1,1,0.907143313484884
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1992,2,26,23,1,1,0.9664704012290095
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1989,6,5,22,1,1,0.9644198359984254
+ULA,Delta IV Heavy,Military,"SLC-6, Vandenberg AFB, California, USA",2019,1,19,19,1,1,0.9650932440739148
+ILS,Atlas IIA,Unknown,"SLC-36A, Cape Canaveral AFS, Florida, USA",1995,4,7,23,1,1,0.9599884960800633
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1976,12,28,6,1,1,0.9392000473902922
+Boeing,Delta II 7420-10C,Unknown,"SLC-2W, Vandenberg AFB, California, USA",2006,4,28,10,1,1,0.9830936086929243
+NASA,Titan II GLV,Unknown,"LC-19, Cape Canaveral AFS, Florida, USA",1966,9,12,14,1,1,0.824245271773581
+ULA,"Delta IV Medium+ (5,2)",Military,"SLC-6, Vandenberg AFB, California, USA",2012,4,3,23,1,1,0.95661221183994
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1974,11,27,11,1,1,0.9271047071924339
+RVSN USSR,Cosmos-1 (65S3),Unknown,"Site 41/15, Baikonur Cosmodrome, Kazakhstan",1965,9,3,3,1,1,0.9362407346549358
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1970,2,17,18,1,1,0.9063944034932413
+EER,Conestoga-1620,Unknown,"LP-0A, Wallops Flight Facility, Virginia, USA",1995,10,23,22,0,1,0.8074812680578837
+General Dynamics,Atlas-E/F SGS-1,Navigation,"SLC-3E, Vandenberg AFB, California, USA",1978,10,7,0,1,1,0.8765601293098448
+VKS RF,Molniya-M /Block ML,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1994,12,14,14,1,1,0.9364520222783946
+NASA,Space Shuttle Atlantis,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",1994,11,3,16,1,1,0.9715746649920178
+CASC,Long March 2C,Unknown,"LC-7, Taiyuan Satellite Launch Center, China",2004,7,25,7,1,1,0.9814796043051185
+RVSN USSR,Energiya/Polyus,Unknown,"Site 250, Baikonur Cosmodrome, Kazakhstan",1987,5,15,17,1,1,0.8755831617071135
+Arianespace,Ariane 5 ECA,Unknown,"ELA-3, Guiana Space Centre, French Guiana, France",2015,5,27,21,1,1,0.974642394391431
+NASA,Space Shuttle Discovery,Unknown,"LC-39A, Kennedy Space Center, Florida, USA",1997,2,11,8,1,1,0.9833597958955882
+CASC,Long March 4B,Unknown,"LC-7, Taiyuan Satellite Launch Center, China",2004,11,6,3,1,1,0.9763684406013473
+Arianespace,Vega,Earth Observation,"ELV-1 (SLV), Guiana Space Centre, French Guiana, France",2015,6,23,1,1,1,0.946234333837992
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1982,7,7,9,1,1,0.9365517485247735
+RVSN USSR,Molniya-M /Block 2BL,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1985,6,11,14,1,1,0.9427785368288459
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1968,11,13,12,1,1,0.9333934275142561
+SpaceX,Falcon 9 Block 5,Communications,"LC-39A, Kennedy Space Center, Florida, USA",2020,4,22,19,1,1,0.9914019322728036
+Arianespace,Ariane 44LP,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1997,9,23,23,1,1,0.9567488392383336
+SpaceX,Falcon 9 Block 3,Communications,"LC-39A, Kennedy Space Center, Florida, USA",2017,10,11,22,1,1,0.9811267968372589
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1970,8,7,9,1,1,0.9348888587794231
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 86/1, Kapustin Yar, Russia",1966,1,25,12,1,1,0.9607861473573239
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1972,5,25,6,1,1,0.9517148480006227
+MHI,H-IIA 2024,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2003,11,29,4,0,1,0.9585674096529968
+MHI,H-IIA 202,Unknown,"LA-Y1, Tanegashima Space Center, Japan",2002,12,14,1,1,1,0.974015945317982
+Northrop,Pegasus XL,Unknown,"Stargazer, Vandenberg AFB, California, USA",2003,8,13,2,1,1,0.9429967811890272
+CASC,Long March 3C/YZ-1,Unknown,"LC-2, Xichang Satellite Launch Center, China",2016,2,1,7,1,1,0.9216368481768242
+MHI,N-II Star-37E,Unknown,"LA-Y1, Tanegashima Space Center, Japan",1981,8,10,20,1,1,0.9454216614611175
+ULA,Atlas V 401,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",2007,3,9,3,1,1,0.9762348701448685
+RVSN USSR,Molniya-M /Block ML,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1990,8,10,20,1,1,0.9244021076074173
+RVSN USSR,Soyuz U,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1977,6,8,14,1,1,0.9415605696254679
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1980,3,17,21,1,1,0.921092943006388
+SpaceX,Falcon 9 Block 5,Cargo,"SLC-40, Cape Canaveral AFS, Florida, USA",2019,12,5,17,1,1,0.953228215610325
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1985,12,19,8,1,1,0.9312272381957012
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1985,8,1,5,1,1,0.9611431543079898
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1983,4,12,18,1,1,0.9499535345143967
+CASC,Long March 3A,Unknown,"LC-2, Xichang Satellite Launch Center, China",2003,5,24,16,1,1,0.9176688223167038
+ISRO,PSLV-XL,Unknown,"Second Launch Pad, Satish Dhawan Space Centre, India",2015,3,28,11,1,1,0.8602782111736087
+ExPace,Kuaizhou 1A,Unknown,"Site 95, Jiuquan Satellite Launch Center, China",2020,5,12,1,1,1,0.9473743949158605
+ExPace,Kuaizhou 11,Unknown,"Site 95, Jiuquan Satellite Launch Center, China",2020,7,10,4,0,1,0.9125162698146982
+General Dynamics,Atlas I,Unknown,"SLC-36B, Cape Canaveral AFS, Florida, USA",1993,9,3,11,1,1,0.6540148217756575
+Roscosmos,Proton-M/Briz-M,Unknown,"Site 200/39, Baikonur Cosmodrome, Kazakhstan",2020,7,30,21,1,1,0.9334643379865482
+ILS,Proton-M/Briz-M,Unknown,"Site 200/39, Baikonur Cosmodrome, Kazakhstan",2017,9,11,19,1,1,0.9594200971405474
+SRC,Shtil',Unknown,"K-84 Submarine, Barents Sea Launch Area, Barents Sea",2006,5,26,18,1,1,0.8702452452654366
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1970,8,19,14,1,1,0.9232848787444405
+RVSN USSR,Cosmos-2I (63S1),Unknown,"Mayak-2, Kapustin Yar, Russia",1962,6,30,16,1,1,0.7430749590958637
+RVSN USSR,Molniya,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1965,4,10,8,0,1,0.562270536240109
+RVSN USSR,Cosmos-2I (63SM),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1975,1,28,12,1,1,0.9374746556971074
+RVSN USSR,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1987,2,14,8,1,1,0.8842359179646865
+RVSN USSR,Tsyklon-2,Unknown,"Site 90/19, Baikonur Cosmodrome, Kazakhstan",1988,11,18,0,1,1,0.9633930445971156
+RVSN USSR,Voskhod,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1964,9,13,9,1,1,0.8875242861497528
+CASC,Long March 2C,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2004,8,29,7,1,1,0.9851315727342457
+RVSN USSR,Vostok-2M,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1970,3,17,11,0,1,0.9634195605849204
+RVSN USSR,Voskhod,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1976,4,28,9,1,1,0.9468373864189914
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",2001,6,9,6,1,1,0.976983725013727
+VKS RF,Zenit-2,Unknown,"Site 45/1, Baikonur Cosmodrome, Kazakhstan",1999,7,17,5,1,1,0.8945628636874987
+ExPace,Kuaizhou 1A,Unknown,"Site 95, Jiuquan Satellite Launch Center, China",2017,1,9,4,1,1,0.9476876499260082
+ULA,Atlas V 411,Military,"SLC-3E, Vandenberg AFB, California, USA",2011,4,15,4,1,1,0.9792526859084484
+RVSN USSR,Proton K/Block D,Unknown,"Site 81/24, Baikonur Cosmodrome, Kazakhstan",1974,5,29,8,1,1,0.5534092069368638
+Boeing,Delta II 6925,Unknown,"SLC-17A, Cape Canaveral AFS, Florida, USA",1989,6,10,22,1,1,0.950880695835096
+Eurockot,Rokot/Briz KM,Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",2006,7,28,7,1,1,0.9051682148511127
+RVSN USSR,Soyuz,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1969,10,12,10,1,1,0.9133548054627396
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1970,7,7,10,1,1,0.9445153313405783
+RVSN USSR,Proton K,Unknown,"Site 81/23, Baikonur Cosmodrome, Kazakhstan",1973,4,3,9,1,1,0.8630079664809921
+US Air Force,Thor DM-21 Agena-B,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1961,7,21,22,0,1,0.7532300684712523
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1966,8,27,9,1,1,0.9436457472361173
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1985,5,30,1,1,1,0.9499665276040806
+CASC,Long March 2D,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2018,3,17,7,1,1,0.9714246105180377
+Martin Marietta,Titan IIIC,Unknown,"SLC-41, Cape Canaveral AFS, Florida, USA",1968,9,26,7,1,1,0.7275019743297024
+Arianespace,Soyuz ST-B/Fregat-MT,Navigation,"ELS, Guiana Space Centre, French Guiana, France",2015,12,17,11,1,1,0.9869508869111671
+Arianespace,Ariane 44L,Unknown,"ELA-2, Guiana Space Centre, French Guiana, France",1991,12,16,22,1,1,0.9593950145264176
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1971,5,29,3,1,1,0.9456883389805499
+US Air Force,Titan III(24)B,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1971,10,23,17,1,1,0.9236510515293722
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1972,5,5,11,1,1,0.9361933034805636
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/2, Plesetsk Cosmodrome, Russia",1976,6,15,13,1,1,0.9530570900075425
+CASC,Long March 2C,Unknown,"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",2018,10,29,0,1,1,0.9874651787599494
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1965,5,25,10,1,1,0.9457646431025951
+ISAS,Mu-III S2,Unknown,"Mu Pad, Uchinoura Space Center, Japan",1989,2,21,23,1,1,0.8998557700120646
+SpaceX,Falcon 9 v1.1,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2015,3,2,3,1,1,0.9370665438666818
+US Air Force,Titan IIIB,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1967,8,16,17,1,1,0.9258297452309631
+CASC,Long March 2C,Unknown,"LC-3, Xichang Satellite Launch Center, China",2019,7,26,3,1,1,0.9787251425993064
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 132/1, Plesetsk Cosmodrome, Russia",1973,5,25,9,0,1,0.9373936241363038
+CASC,Long March 4C,Unknown,"LC-9, Taiyuan Satellite Launch Center, China",2019,11,27,23,1,1,0.7998830688425201
+RVSN USSR,Tsyklon-3,Unknown,"Site 32/2, Plesetsk Cosmodrome, Russia",1985,11,22,22,1,1,0.9140638496868758
+RVSN USSR,Voskhod,Unknown,"Site 43/4, Plesetsk Cosmodrome, Russia",1972,9,15,9,1,1,0.9335414832492414
+US Air Force,Titan IIIA,Unknown,"SLC-20, Cape Canaveral AFS, Florida, USA",1964,9,1,15,0,1,0.887352008868216
+US Air Force,Titan IIIB,Unknown,"SLC-4W, Vandenberg AFB, California, USA",1968,11,6,19,1,1,0.9176560068099251
+CASC,Long March 3B/E,Unknown,"LC-2, Xichang Satellite Launch Center, China",2019,8,19,12,1,1,0.8911278309449633
+RVSN USSR,Voskhod,Unknown,"Site 31/6, Baikonur Cosmodrome, Kazakhstan",1965,8,3,11,1,1,0.941321412520706
+Arianespace,Soyuz ST-A/Fregat-M,Communications,"ELS, Guiana Space Centre, French Guiana, France",2017,5,18,11,1,1,0.9880356642735871
+NASA,Mercury-Redstone,Unknown,"LC-5, Cape Canaveral AFS, Florida, USA",1961,7,21,12,1,1,0.8944528905369435
+Martin Marietta,Commercial Titan III,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",1990,6,23,11,1,1,0.7471788444110473
+VKS RF,Tsyklon-2,Unknown,"Site 90/20, Baikonur Cosmodrome, Kazakhstan",1993,4,28,3,1,1,0.9888851543496366
+VKS RF,Rokot/Briz KM,Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",2015,3,31,13,1,1,0.9262931837310385
+SpaceX,Falcon 9 v1.1,Unknown,"SLC-40, Cape Canaveral AFS, Florida, USA",2014,9,7,5,1,1,0.9245886701059086
+RVSN USSR,Sputnik 8A91,Unknown,"Site 1/5, Baikonur Cosmodrome, Kazakhstan",1958,5,15,7,1,1,0.7201989293582588
+RVSN USSR,Soyuz U,Unknown,"Site 43/3, Plesetsk Cosmodrome, Russia",1975,9,12,5,1,1,0.955270771521217
+RVSN USSR,Molniya-M /Block L,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1972,9,30,20,1,1,0.8991276889720489
+RVSN USSR,Cosmos-3M (11K65M),Unknown,"Site 133/3, Plesetsk Cosmodrome, Russia",1989,7,25,7,1,1,0.9437881510374186
+US Air Force,Thor-DM18 Agena-A,Unknown,"SLC-1W (75-3-4), Vandenberg AFB, California, USA",1959,4,13,21,1,1,0.5893589818790885
+JAXA,Epsilon PBS,Unknown,"Mu Pad, Uchinoura Space Center, Japan",2018,1,17,21,1,1,0.8741101543550635
+ISRO,SLV-3,Unknown,"SLV LP, Satish Dhawan Space Centre, India",1981,5,31,5,0,1,0.7999985304195394
+RVSN USSR,Voskhod,Unknown,"Site 41/1, Plesetsk Cosmodrome, Russia",1970,5,12,10,1,1,0.9445241684894492
+NASA,Space Shuttle Discovery,Unknown,"LC-39B, Kennedy Space Center, Florida, USA",2001,3,8,11,1,1,0.9795920781527324

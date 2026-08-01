@@ -1,0 +1,18 @@
+{
+    "algorithm": "Logistic Regression",
+    "categorical_features": [
+        "provider",
+        "rocket",
+        "mission_type",
+        "pad"
+    ],
+    "numeric_features": [
+        "year",
+        "month",
+        "day",
+        "hour"
+    ],
+    "training_rows": 3356,
+    "testing_rows": 840,
+    "dataset_rows": 4196
+}

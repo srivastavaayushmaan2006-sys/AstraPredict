@@ -1,26 +1,20 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 
 # Virtual environments
 .venv/
 venv/
 env/
 
-# Jupyter
-.ipynb_checkpoints/
-
 # VS Code
 .vscode/
 
-# Streamlit
+# Streamlit secrets
 .streamlit/secrets.toml
 
-# macOS
+# OS files
 .DS_Store
-
-# Windows
 Thumbs.db
 
 # Logs
@@ -28,15 +22,3 @@ Thumbs.db
 
 # Environment variables
 .env
-
-# Python build files
-build/
-dist/
-*.egg-info/
-
-# Cache
-.pytest_cache/
-.mypy_cache/
-
-# Model artifacts (optional)
-# models/*.joblib

@@ -6,7 +6,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from src.config import MODEL_DIR
+from pathlib import Path
+MODEL_DIR = Path("models")
 from utils import load_dataset
 
 st.set_page_config(
@@ -397,27 +398,6 @@ st.header("📝 Dataset Preview")
 st.dataframe(
     df.head(10),
     use_container_width=True,
-)
-
-st.divider()
-
-# ==================================================
-# Future Roadmap
-# ==================================================
-
-st.header("🚀 Future Improvements")
-
-st.markdown(
-"""
-- ✅ Logistic Regression
-- ⏳ Random Forest
-- ⏳ Gradient Boosting
-- ⏳ XGBoost
-- ⏳ Feature Importance
-- ⏳ SHAP Explainability
-- ⏳ Multi-Model Comparison
-- ⏳ Hyperparameter Optimization
-"""
 )
 
 st.divider()

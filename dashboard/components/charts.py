@@ -1,33 +1,26 @@
-from pathlib import Path
-
-import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-DATA_PATH = Path("data/processed/launches.csv")
 
+def launches_by_year(df):
 
-@st.cache_data
-def load_data():
-    return pd.read_csv(DATA_PATH)
-
-
-def launches_by_year():
-
-    df = load_data()
-
-    yearly = (
+    chart = (
         df.groupby("year")
         .size()
         .reset_index(name="Launches")
     )
 
     fig = px.line(
-        yearly,
+        chart,
         x="year",
         y="Launches",
         markers=True,
-        title="Launches Per Year",
+        title="🚀 Launches Per Year",
+    )
+
+    fig.update_layout(
+        xaxis_title="Year",
+        yaxis_title="Launches",
     )
 
     st.plotly_chart(
@@ -36,27 +29,25 @@ def launches_by_year():
     )
 
 
-def mission_type_chart():
+def mission_type_chart(df):
 
-    df = load_data()
-
-    mission_counts = (
+    chart = (
         df["mission_type"]
         .value_counts()
         .reset_index()
     )
 
-    mission_counts.columns = [
+    chart.columns = [
         "Mission",
         "Count",
     ]
 
     fig = px.pie(
-        mission_counts,
+        chart,
         values="Count",
         names="Mission",
         hole=0.45,
-        title="Mission Type Distribution",
+        title="🎯 Mission Distribution",
     )
 
     st.plotly_chart(
@@ -65,28 +56,94 @@ def mission_type_chart():
     )
 
 
-def top_providers():
+def top_providers(df):
 
-    df = load_data()
-
-    providers = (
+    chart = (
         df["provider"]
         .value_counts()
         .head(10)
         .reset_index()
     )
 
-    providers.columns = [
+    chart.columns = [
         "Provider",
         "Launches",
     ]
 
     fig = px.bar(
-        providers,
+        chart,
         x="Launches",
         y="Provider",
         orientation="h",
-        title="Top 10 Launch Providers",
+        title="🛰 Top Launch Providers",
+    )
+
+    fig.update_layout(
+        yaxis=dict(
+            categoryorder="total ascending"
+        )
+    )
+
+    st.plotly_chart(
+        fig,
+        use_container_width=True,
+    )
+
+
+def top_rockets(df):
+
+    chart = (
+        df["rocket"]
+        .value_counts()
+        .head(10)
+        .reset_index()
+    )
+
+    chart.columns = [
+        "Rocket",
+        "Launches",
+    ]
+
+    fig = px.bar(
+        chart,
+        x="Launches",
+        y="Rocket",
+        orientation="h",
+        title="🚀 Top Rockets",
+    )
+
+    fig.update_layout(
+        yaxis=dict(
+            categoryorder="total ascending"
+        )
+    )
+
+    st.plotly_chart(
+        fig,
+        use_container_width=True,
+    )
+
+
+def top_launch_pads(df):
+
+    chart = (
+        df["pad"]
+        .value_counts()
+        .head(10)
+        .reset_index()
+    )
+
+    chart.columns = [
+        "Launch Pad",
+        "Launches",
+    ]
+
+    fig = px.bar(
+        chart,
+        x="Launches",
+        y="Launch Pad",
+        orientation="h",
+        title="📍 Top Launch Pads",
     )
 
     fig.update_layout(
