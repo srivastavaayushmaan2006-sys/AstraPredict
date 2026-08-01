@@ -5,7 +5,7 @@ AstraPredict - Predict Launch Success
 import requests
 import streamlit as st
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://astrapredict-1.onrender.com"
 
 st.set_page_config(
     page_title="Predict Launch",

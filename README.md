@@ -145,7 +145,7 @@ uvicorn api.app:app --reload
 Swagger Documentation
 
 ```
-http://127.0.0.1:8000/docs
+https://astrapredict-1.onrender.com/docs
 ```
 
 ---
