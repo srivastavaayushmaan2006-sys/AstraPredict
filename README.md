@@ -16,8 +16,8 @@ AstraPredict combines historical launch records, machine learning, FastAPI, and 
 ---
 
 # 📸 Dashboard
+https://astrapredict-ck94jmzyxihyxb57xjndg2.streamlit.app/
 
-> *(Add screenshots after deployment)*
 
 | Home | Analytics |
 |------|-----------|
